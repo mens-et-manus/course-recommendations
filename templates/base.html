@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MIT CourseRecommender</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+		<!--link rel="icon" type="image/png" href="img/logo.png"-->
+		<meta name="description" content="">
+		<link rel="stylesheet" href="css/base.css">
+		
+		{% block header %}{% endblock %}
+	</head>
+	<body>
+		<div id="main">
+			<div id="center">
+			{% include 'navbar.html' %}
+			<div id="body" class="shadow">
+				{% block body %}{% endblock %}
+			</div>
+			</div>
+		</div>
+		<script src="js/base.js"></script>
+	</body>
+</html>

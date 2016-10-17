@@ -37,7 +37,7 @@ def predictData(newData):
     for i in range(0,len(rowCopy)):
         if rowCopy[i] == 0 and newRow[i] != 0:
             # this was predicted!
-            result[courses[i]] = round(newRow[i] + avg)
+            result[courses[i]] = abs(round(newRow[i] + avg)) % 5 # eliminate rounding errors and stuff
     return result
 
 # ***************

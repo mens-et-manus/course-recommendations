@@ -11,4 +11,3 @@ Success Metrics:
 	* Accuracy of recommendations
 	* Speed of recommendations
 	* Clarity of recommentation
-
