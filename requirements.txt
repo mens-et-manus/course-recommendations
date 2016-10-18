@@ -3,3 +3,7 @@ scipy
 scikit-learn
 pandas
 flask
+redis
+Flask-API==0.6.2
+gunicorn==19.1.1
+wsgiref==0.1.2

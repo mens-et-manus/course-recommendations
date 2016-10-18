@@ -8,37 +8,34 @@ from sklearn.metrics import mean_squared_error
 # set up data thing
 # *****************
 
-userIds = []
-courses = []
-n_users = 0
-n_items = 0
-train = np.zeros((n_users, n_items))
+userIds = []  # a list of all of the user ids that are currently in the matrix
+courses = []  # a list of all the courses '''''
+n_users = 0   # length of the array userIds
+n_items = 0   # length of the array courses
+train = np.zeros((n_users, n_items))  # initializes the matrix (empty for now)
 
 def predictData(newData):
-    newData = newData.strip()
-    index = addRowToKnown(newData)
+    newData = newData.strip()           # removes whitespace
+    index = addRowToKnown(newData)      # add to the matrix, returns the index (row) where the data will be once predicted
     rowCopy = train[index]
-	# should input know, what you want to find
 
-    # insert known data into the database
-    user_similarity = fast_similarity(train, kind='item') # can use 'item' as well
-    user_prediction = predict_topk_nobias(train, user_similarity, kind='item', k=10)
-    newRow = user_prediction[index]
-    result = {}
+    user_similarity = fast_similarity(train, kind='item') # finds the similarity coefficient (math stuff)
+    user_prediction = predict_topk_nobias(train, user_similarity, kind='item', k=10) # turns the similarity into predicted ratings (more math)
+    newRow = user_prediction[index] # get the predicted row
+    result = {}                     # what will eventually be returned
 
-    tot = 0
-    num_tot = 0
-    for i in range(0,len(rowCopy)):
-        if rowCopy[i] != 0:
-            tot = tot + (rowCopy[i] - newRow[i])
-            num_tot = num_tot + 1
-    avg = tot / num_tot
+    tot = 0                         # calculates the average error
+    num_tot = 0                     # counter to eventually divide the total be
+    for i in range(0,len(rowCopy)):   # go through each item in row
+        if rowCopy[i] != 0:           # if it was not predicted...
+            tot = tot + (rowCopy[i] - newRow[i])    # find the difference between the result and the actual result
+            num_tot = num_tot + 1                   # increment the counter
+    avg = tot / num_tot     # calculate the average error
 
     for i in range(0,len(rowCopy)):
         if rowCopy[i] == 0 and newRow[i] != 0:
-            # this was predicted!
-            result[courses[i]] = abs(round(newRow[i] + avg)) % 5 # eliminate rounding errors and stuff
-    return result
+            result[courses[i]] = abs(round(newRow[i] + avg)) % 5 # accounts for average error to get a better prediction
+    return result       # returns predictions
 
 # ***************
 # get similarity between users
@@ -47,8 +44,8 @@ def predictData(newData):
 def fast_similarity(ratings, kind='user', epsilon=1e-9):
     # epsilon -> small number for handling dived-by-zero errors
     if kind == 'user':
-        sim = ratings.dot(ratings.T) + epsilon
-    elif kind == 'item':
+        sim = ratings.dot(ratings.T) + epsilon          # predict by similar users (using this)
+    elif kind == 'item':                                # predict by similar items
         sim = ratings.T.dot(ratings) + epsilon
     norms = np.array([np.sqrt(np.diagonal(sim))])
     return (sim / norms / norms.T)
