@@ -36,3 +36,8 @@
 .courses .star-selected{
 	color: #FFEB3B;
 }
+
+.course-close{
+	margin-left: 10px;
+    color: #afafaf;
+}

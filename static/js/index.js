@@ -29,13 +29,23 @@ $(document).ready(function(){
 						to_push = to_push + "<i class='fa fa-star'></i>";
 					}
 				}
-				to_push = to_push + "</div>"
+				to_push = to_push + "</span><span class='course-close'><i class='fa fa-close'></i></span></div>"
 				$("#selected-courses").append(to_push);
 				// get the last row
 				$("#selected-courses > div").last().find(".fa-star").each(function(i){
 					$(this).click(function(){
 						setRating(id, i+1)
 					});
+				});
+				$("#selected-courses > div").last().find(".course-close").click(function(){
+					var newArray = [];
+					for(var j = 0; j < selected_courses.length; j++){
+						if(selected_courses[j].id !== id){
+							newArray.push(selected_courses[j])
+						}
+					}
+					selected_courses = newArray;
+					$(".courses[data-id='" + id + "']").remove();
 				});
 				//
 				selected_courses.push({
@@ -78,35 +88,7 @@ function predictContent(){
 	}
 	sendPredictContent(courses, ratings, function(data){
 		//time to process...
-		var ret = [];
-		for(var i = 0; i < data.data.length; i++){
-			var _d = data.data[i];
-			var _r = data.ratings[i] -1;
-			for(var j = 0; j < _d.length; j++){
-				var indexExists = -1;
-				for(var k = 0; k < ret.length; k++){
-					if(ret[k].id === _d[j].id){
-						indexExists = k;
-					}
-				}
-				if(indexExists == -1){
-					ret.push({
-						id: _d[j].id,
-						rel: _r * _d[j].num
-					});
-				}
-				else{
-					ret[k].rel = ret[k].rel + (_r * _d[j].num)
-				}
-			} 
-		}
-		ret.sort(function(a, b) {
-	        return b.rel - a.rel //descending order
-	    });
-	    console.log(ret);
-	    if(ret.length > 5){
-	    	ret = ret.slice(0,5);
-	    }
+		var ret = normalizeData(data);
 	    //display the results...
 	    $("#predicted-courses").html("");
 	    if(ret.length === 0){
@@ -127,4 +109,57 @@ function predictContent(){
 	    }
 
 	});
+}
+
+function normalizeData(data){
+	var ret = [];
+	for(var i = 0; i < data.data.length; i++){
+		var _d = normalizeDataSet(data.data[i]);
+		var _r = data.ratings[i] -1;
+
+		for(var j = 0; j < _d.length; j++){
+			var indexExists = -1;
+			for(var k = 0; k < ret.length; k++){
+				if(ret[k].id === _d[j].id){
+					indexExists = k;
+				}
+			}
+			if(indexExists == -1){
+				ret.push({
+					id: _d[j].id,
+					rel: _r * _d[j].num
+				});
+			}
+			else{
+				ret[k].rel = ret[k].rel + (_r * _d[j].num)
+			}
+
+
+		} 
+	}
+
+	ret.sort(function(a, b) {
+        return b.rel - a.rel //descending order
+    });
+    if(ret.length > 5){
+    	ret = ret.slice(0,5);
+    }
+    return ret;
+}
+
+function normalizeDataSet(data){
+	var maxIndex = -1;
+	for(var i = 0; i < data.length; i++){
+		if(maxIndex === -1 || data[i].num > data[maxIndex].num){
+			maxIndex = i;
+		}
+	}
+	if(maxIndex === -1){
+		return [];
+	}
+	var ratio = 5/data[maxIndex].num;
+	for(var i = 0; i < data.length; i++){
+		data[i].num = Math.round(ratio * data[i].num);
+	}
+	return data;
 }
