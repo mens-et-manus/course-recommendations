@@ -2,8 +2,30 @@
 
 {% block header %}
 <link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/autofill.css">
 {% endblock %}
 
 {% block body %}
+
+<div class="shadow container">
+	<div id="selected-courses">
+
+	</div>
+	<div class="row">
+		<div id="select-autofill"></div>
+	</div>
+</div>
+
+<div class="button-container">
+	<button class="btn shadow" onclick="predictContent()">PREDICT</button>
+</div>
+
+<div class="shadow container" id="predicted-courses" style="display:none">
+</div>
+
+
+
+<script src="js/autofill.js"></script>
+<script src="js/index.js"></script>
 
 {% endblock %}

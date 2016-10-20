@@ -20,8 +20,10 @@
 	<body>
 		<div id="main">
 			{% include 'navbar.html' %}
-			<div id="body" class="shadow">
-				{% block body %}{% endblock %}
+			<div id="body">
+				<div id="content">
+					{% block body %}{% endblock %}
+				</div>
 			</div>
 		</div>
 		<script src="js/base.js"></script>
