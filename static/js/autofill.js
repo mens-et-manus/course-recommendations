@@ -32,8 +32,8 @@ var autoFillInput = function(elem,data,onSelect){
 					matches.push($this.data[i]);
 				}
 			}
-			if(matches.length > 5){ // only get the first 5
-				matches = matches.slice(0,5);
+			if(matches.length > 15){ // only get the first 5
+				matches = matches.slice(0,15);
 			}
 			for(var i = 0; i < matches.length; i++){
 				$($this.possible).append("<p data-id='"+matches[i].id+"'>" + matches[i].text + "</p>");

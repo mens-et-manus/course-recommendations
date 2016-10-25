@@ -1,0 +1,21 @@
+#team-members{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#team-members > div{
+	width: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#team-members > div > img{
+	width: 100px;
+	border-radius: 50%;
+}
+
+#team-members > div > span{
+	margin-top: 10px;
+}

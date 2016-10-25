@@ -3,6 +3,8 @@
 import numpy as np
 import pandas as pd
 from sklearn.metrics import mean_squared_error
+import redis
+r = redis.StrictRedis(host='localhost', port=6379, db=0)
 
 # *****************
 # set up data thing
@@ -116,17 +118,22 @@ def addRowToKnown(row):
     return userIndex
 
 
+#
+# INITIALIZE
+#
+
+user_ids = r.get("user-ids")
+if user_ids == None:
+    user_ids = []
+    r.set("user-ids",[])
+print(user_ids)
+
+"""
 f = open('collaborative_test.txt', 'r')
 for line in f:
     addRowToKnown(line.strip())
 
-# ************
-# predict it!
-# ************
-
-# TODO: work on returning and adding relavant data
-newKnownData = """
-g,18.02 2,8.01 4,3.091 3
-"""
+newKnownData = "g,18.02 2,8.01 4,3.091 3"
 result = predictData(newKnownData)
 print(result)
+"""

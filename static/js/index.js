@@ -19,6 +19,7 @@ $(document).ready(function(){
 		data = data.courses;
 		allCourses = data;
 		ai = new autoFillInput($("#select-autofill"),data,function(id,text){
+			ai.clear();
 			if(!alreadyInSelected(id)){
 				var to_push = "<div class='row courses' data-id='"+id+"'><p>" + text + "</p><span>";
 				for(var i = 0; i < 5; i++){
@@ -31,7 +32,6 @@ $(document).ready(function(){
 				}
 				to_push = to_push + "</span><span class='course-close'><i class='fa fa-close'></i></span></div>"
 				$("#selected-courses").append(to_push);
-				// get the last row
 				$("#selected-courses > div").last().find(".fa-star").each(function(i){
 					$(this).click(function(){
 						setRating(id, i+1)
@@ -45,7 +45,7 @@ $(document).ready(function(){
 						}
 					}
 					selected_courses = newArray;
-					$(".courses[data-id='" + id + "']").remove();
+					$("#selected-courses .courses[data-id='" + id + "']").remove();
 				});
 				//
 				selected_courses.push({
@@ -72,7 +72,7 @@ function setRating(id,rating){
 			selected_courses[i].rating = rating;
 		}
 	}
-	var arr = $(".courses[data-id='" + id + "'] .fa-star");
+	var arr = $("#selected-courses .courses[data-id='" + id + "'] .fa-star");
 	arr.removeClass("star-selected");
 	for(var i = 0; i < rating; i++){
 		$(arr.get(i)).addClass("star-selected");
@@ -95,16 +95,23 @@ function predictContent(){
 	    	//nothing here...
 	    }
 	    else{
-	    	$("#predicted-courses").css("display","flex");
+	    	$("#predicted-container").css("display","flex");
 	    	for(var i = 0; i < ret.length; i++){
 	    		var text = "Error: course not found"
 	    		for(var j = 0; j < allCourses.length; j++){
 	    			if(allCourses[j].id === ret[i].id){
-	    				text = allCourses[j].id + "-" + allCourses[j].title;
+	    				text = "<span class='courses-courseid'>"+allCourses[j].id + "</span><span class='courses-coursetitle'>" + allCourses[j].title + "</span>";
 	    			}
 	    		}
-	    		var to_push = "<div class='row courses' data-id='"+ret[i].id+"'><p>" + text + "</p></div>";
+	    		var to_push = "<div class='row courses courses-rec' data-id='"+ret[i].id+"'><p>" + text + "</p><span><a href='http://catalog.mit.edu/subjects/" + ret[i].id.split(".")[0];
+	    		to_push = to_push + "' target='_blank'><i class='fa fa-link'></i></a><i class='fa fa-eye' style='margin-left: 10px'></i></span>"
+	    		to_push = to_push + "<div class='courses-rec-desc' style='display:none'><p>" + (ret[i].similarity*100).toFixed(1) + "% similarity to " + ret[i].originalCourse + "</p></div>";
+	    		to_push = to_push + "</div>"
 	    		$("#predicted-courses").append(to_push);
+	    		var id = ret[i].id;
+	    		$("#predicted-courses > div").last().find(".fa-eye").click(function(i){
+					$(this).parent().parent().find(".courses-rec-desc").slideToggle();
+				});
 	    	}
 	    }
 
@@ -127,7 +134,9 @@ function normalizeData(data){
 			if(indexExists == -1){
 				ret.push({
 					id: _d[j].id,
-					rel: _r * _d[j].num
+					rel: _r * _d[j].num,
+					similarity: _d[j].similarity,
+					originalCourse: data.courses[i]
 				});
 			}
 			else{
@@ -159,6 +168,7 @@ function normalizeDataSet(data){
 	}
 	var ratio = 5/data[maxIndex].num;
 	for(var i = 0; i < data.length; i++){
+		data[i].similarity = data[i].num;
 		data[i].num = Math.round(ratio * data[i].num);
 	}
 	return data;

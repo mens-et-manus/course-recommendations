@@ -1,6 +1,12 @@
 # course-recommendations
 Course recommendations using AI
 
+## Setup
+```
+pip3 install -r requirements.txt
+# install redis somehow (brew, apt, etc.)
+```
+
 ## Types of Prediction
 We will be using a combination of the the following 2 methods:
 
@@ -14,3 +20,7 @@ Gets similar courses based on the course descriptions. Uses language processing 
 + **Pros:** Easy to scrape data
 + **Cons:** Only gets courses that _sound_ similar
 
+### TODO
++ set up databases and stuff
++ add collaborative-based recommendations
+	+ get sample data

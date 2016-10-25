@@ -13,6 +13,10 @@ log.setLevel(logging.ERROR)
 def index(user=None):
     return render_template('index.html')
 
+@app.route('/about')
+def about(user=None):
+    return render_template('about.html')
+
 @app.route('/predict/content', methods=['POST'])
 def predictContent():
 	data = request.json

@@ -311,11 +311,6 @@
             "title": "Undergraduate Research"
         },
         {
-            "desc": "See description under subject 2.EPE.",
-            "id": "16.EPE",
-            "title": "UPOP Engineering Practice Experience"
-        },
-        {
             "desc": "See description under subject 2.EPW. Enrollment limited.",
             "id": "16.EPW",
             "title": "UPOP Engineering Practice Workshop"
@@ -581,11 +576,6 @@
             "title": "Advanced Project"
         },
         {
-            "desc": "Study, original investigation, or lab project work by qualified students. Topics selected in consultation with instructor. Prior approval required.",
-            "id": "16.981",
-            "title": "Advanced Project"
-        },
-        {
             "desc": "Discussion of current interest topics by staff and guest speakers. Prior approval required. Restricted to Course 16 students.",
             "id": "16.984",
             "title": "Seminar"
@@ -701,18 +691,8 @@
             "title": "The Foundations of the United States Air Force"
         },
         {
-            "desc": "Survey designed to introduce students to the United States Air Force and Air Force Reserve Officer Training Corps. Topics include mission and organization of the Air Force, officership and professionalism, military customs and courtesies, Air Force officer opportunities, group leadership problems, and an introduction to communication skills. AS.102 is a continuation of AS.101.",
-            "id": "AS.102",
-            "title": "The Foundations of the United States Air Force"
-        },
-        {
             "desc": "",
             "id": "AS.111",
-            "title": "Leadership Laboratory"
-        },
-        {
-            "desc": "Includes a study of Air Force customs and courtesies, drill and ceremonies, and military commands. Also includes studying the environment of an Air Force officer and learning about areas of opportunity available to commissioned officers, as well as interviews, guidance, and information to increase the understanding, motivation, and performance of other cadets. AS.112 is a continuation of AS.111.",
-            "id": "AS.112",
             "title": "Leadership Laboratory"
         },
         {
@@ -721,18 +701,8 @@
             "title": "The Evolution of USAF Air and Space Power"
         },
         {
-            "desc": "Survey designed to facilitate the transition from Air Force ROTC cadet to Air Force ROTC officer candidate. Topics include Air Force heritage and leaders, Quality Air Force, an introduction to ethics and values, introduction to leadership, group leadership problems, and continuing application of communication skills. AS.202 is a continuation of AS.201.",
-            "id": "AS.202",
-            "title": "The Evolution of USAF Air and Space Power"
-        },
-        {
             "desc": "",
             "id": "AS.211",
-            "title": "Leadership Laboratory"
-        },
-        {
-            "desc": "Emphasizes development of techniques used to direct and inform. Students are assigned leadership and management positions in the AS.111 programs described above. AS.212 is a continuation of AS.211.",
-            "id": "AS.212",
             "title": "Leadership Laboratory"
         },
         {
@@ -741,18 +711,8 @@
             "title": "Air Force Leadership Studies"
         },
         {
-            "desc": "Study of leadership, quality management fundamentals, professional knowledge, Air Force doctrine, leadership ethics, and communication skills required of an Air Force junior officer. Case studies are used to examine Air Force leadership and management situations as a means of demonstrating and exercising practical application of the concepts being studied. AS.302 is a continuation of AS.301.",
-            "id": "AS.302",
-            "title": "Air Force Leadership Studies"
-        },
-        {
             "desc": "",
             "id": "AS.311",
-            "title": "Leadership Laboratory"
-        },
-        {
-            "desc": "Consists of activities classified as advanced leadership experiences that involve the planning and controlling of military activities of the cadet corps and the preparation and presentation of briefings and other oral and written communications. Also includes interviews, guidance, and information to increase the understanding, motivation, and performance of other cadets. AS.312 is a continuation of AS.311.",
-            "id": "AS.312",
             "title": "Leadership Laboratory"
         },
         {
@@ -761,28 +721,13 @@
             "title": "National Security Affairs/Preparation for Active Duty"
         },
         {
-            "desc": "Examines the national security process, regional studies, advanced leadership ethics, and Air Force doctrine. Special topics of interest focus on the military as a profession, officership, military justice, civilian control of the military, preparation for active duty, and current issues affecting military professionalism. Within this structure, continued emphasis on refining communication skills. AS.402 is a continuation of AS.401.",
-            "id": "AS.402",
-            "title": "National Security Affairs/Preparation for Active Duty"
-        },
-        {
             "desc": "",
             "id": "AS.411",
             "title": "Leadership Laboratory"
         },
         {
-            "desc": "Consists of activities classified as advanced leadership experiences that involve the planning and controlling of military activities of the cadet corps, and the preparation and presentation of briefings and other oral and written communications. Also includes interviews, guidance, and information to increase the understanding, motivation, and performance of other cadets. AS.412 is a continuation of AS.411.",
-            "id": "AS.412",
-            "title": "Leadership Laboratory"
-        },
-        {
             "desc": "",
             "id": "AS.511",
-            "title": "Leadership Laboratory"
-        },
-        {
-            "desc": "Consists of activities classified as advanced leadership experiences to continue developing critical leadership, managerial and communication skills along with maintaining an active, physical lifestyle needed in today's Air Force. AS.512 is a continuation of AS.511.",
-            "id": "AS.512",
             "title": "Leadership Laboratory"
         },
         {
@@ -1156,11 +1101,6 @@
             "title": "Undergraduate Research"
         },
         {
-            "desc": "Individual participation in an ongoing research project. For students in the Undergraduate Research Opportunities Program.",
-            "id": "21A.URG",
-            "title": "Undergraduate Research"
-        },
-        {
             "desc": "Provides an introduction to the architecture design process. Develops skills that enable design creativity, thinking, representation, and development. Beginning with abstract exercises, introduces techniques for designing and developing 2-dimensional and 3-dimensional form and space in architecture.",
             "id": "4.021",
             "title": "Introduction to Architecture Design"
@@ -1203,21 +1143,6 @@
         {
             "desc": "",
             "id": "4.091",
-            "title": "Independent Study in Design (New)"
-        },
-        {
-            "desc": "",
-            "id": "4.092",
-            "title": "Independent Study in Design (New)"
-        },
-        {
-            "desc": "",
-            "id": "4.093",
-            "title": "Independent Study in Design (New)"
-        },
-        {
-            "desc": "Supplementary work on individual or group basis. Registration subject to prior arrangement for subject matter and supervision by staff.",
-            "id": "4.094",
             "title": "Independent Study in Design (New)"
         },
         {
@@ -1316,21 +1241,6 @@
             "title": "Architectural Design Workshop"
         },
         {
-            "desc": "",
-            "id": "4.181",
-            "title": "Architectural Design Workshop"
-        },
-        {
-            "desc": "",
-            "id": "4.182",
-            "title": "Architectural Design Workshop"
-        },
-        {
-            "desc": "Addresses design inquiry in a studio format. In-depth consideration of selected issues of the built world. The problem may be prototypical or a particular aspect of a whole project, but is always interdisciplinary in nature.",
-            "id": "4.183-4.185",
-            "title": "Architectural Design Workshop"
-        },
-        {
             "desc": "Preparatory research development leading to a well-conceived proposition for the MArch design thesis. Students formulate a cohesive thesis argument and critical project using supportive research and case studies through a variety of representational media, critical traditions, and architectural/artistic conventions. Group study in seminar and studio format, with periodic reviews supplemented by conference with faculty and a designated committee member for each individual thesis. Restricted to MArch students.",
             "id": "4.189",
             "title": "Preparation for MArch Thesis"
@@ -1346,21 +1256,6 @@
             "title": "Independent Study in Architecture Design"
         },
         {
-            "desc": "",
-            "id": "4.192",
-            "title": "Independent Study in Architecture Design"
-        },
-        {
-            "desc": "",
-            "id": "4.193",
-            "title": "Independent Study in Architecture Design"
-        },
-        {
-            "desc": "Supplementary work on individual or group basis. Registration subject to prior arrangement for subject matter and supervision by staff.",
-            "id": "4.194",
-            "title": "Independent Study in Architecture Design"
-        },
-        {
             "desc": "Seminar or lecture on a topic in design that is not covered in the regular curriculum. Requires original research and presentation of oral and written reports and/or design projects, varying at the discretion of the instructor.",
             "id": "4.S00",
             "title": "Special Subject: Design (New)"
@@ -1373,26 +1268,6 @@
         {
             "desc": "",
             "id": "4.S10",
-            "title": "Special Subject: Architecture Design"
-        },
-        {
-            "desc": "",
-            "id": "4.S11",
-            "title": "Special Subject: Architecture Design"
-        },
-        {
-            "desc": "",
-            "id": "4.S12",
-            "title": "Special Subject: Architecture Design"
-        },
-        {
-            "desc": "",
-            "id": "4.S13",
-            "title": "Special Subject: Architecture Design"
-        },
-        {
-            "desc": "Seminar or lecture on a topic in architecture design that is not covered in the regular curriculum. Requires original research and presentation of oral and written reports and/or design projects, varying at the discretion of the instructor.",
-            "id": "4.S14",
             "title": "Special Subject: Architecture Design"
         },
         {
@@ -1453,11 +1328,6 @@
         {
             "desc": "",
             "id": "4.230[J]",
-            "title": "SIGUS Workshop"
-        },
-        {
-            "desc": "Interdisciplinary projects and interactive practices in urban settlement issues as investigated by MIT's SIGUS (Special Interest Group in Urban Settlements), with a focus on developing countries throughout the world. Participation by guest practitioners. Additional work required of students taking the graduate version.",
-            "id": "4.231",
             "title": "SIGUS Workshop"
         },
         {
@@ -1556,21 +1426,6 @@
             "title": "Independent Study in Architecture Studies"
         },
         {
-            "desc": "",
-            "id": "4.292",
-            "title": "Independent Study in Architecture Studies"
-        },
-        {
-            "desc": "",
-            "id": "4.293",
-            "title": "Independent Study in Architecture Studies"
-        },
-        {
-            "desc": "Supplementary work on individual or group basis. Registration subject to prior arrangement for subject matter and supervision by staff.",
-            "id": "4.294",
-            "title": "Independent Study in Architecture Studies"
-        },
-        {
             "desc": "Supplementary summer work on individual basis. Registration subject to prior arrangement for subject matter and supervision by staff.",
             "id": "4.299",
             "title": "Summer Research Topics"
@@ -1578,26 +1433,6 @@
         {
             "desc": "",
             "id": "4.S20",
-            "title": "Special Subject: Architecture Studies"
-        },
-        {
-            "desc": "",
-            "id": "4.S21",
-            "title": "Special Subject: Architecture Studies"
-        },
-        {
-            "desc": "",
-            "id": "4.S22",
-            "title": "Special Subject: Architecture Studies"
-        },
-        {
-            "desc": "",
-            "id": "4.S23",
-            "title": "Special Subject: Architecture Studies"
-        },
-        {
-            "desc": "Seminar or lecture on a topic in architecture studies that is not covered in the regular curriculum. Requires original research and presentation of oral and written reports and/or design projects, varying at the discretion of the instructor.",
-            "id": "4.S24",
             "title": "Special Subject: Architecture Studies"
         },
         {
@@ -1641,18 +1476,8 @@
             "title": "Advanced Studio on the Production of Space"
         },
         {
-            "desc": "Introduces historical and contemporary spatial concepts from various cultures and geo-political settings, and examines how they relate to artistic process and production. Explores the relational qualities of spatial concepts and reflects on their producers and proponents; investigates the notion of utopian, dystopian and heterotopian space, inner and outer space, the void, the vacuum, the in-between, and &quot;real&quot; versus &quot;virtual&quot; space. Lectures, readings, screenings, presentations, and guest speakers from various disciplines support the development of individual and collective projects. Additional work required of students taking the graduate version. Limited to 20.",
-            "id": "4.313",
-            "title": "Advanced Studio on the Production of Space"
-        },
-        {
             "desc": "Limited to 20.",
             "id": "4.314",
-            "title": "Advanced Workshop in Artistic Practice and Transdisciplinary Research"
-        },
-        {
-            "desc": "Examines artistic practice as a form of critical inquiry and knowledge production. Offers opportunity to develop art as a means for addressing the social, cultural, and ecological consequences of technology, to build bridges between industry and culture, and to challenge the boundaries between public and private, and human and non-human. Provides instruction in evaluating models of experimentation, individual research, and collaboration with other disciplines in the arts, culture, science, and technology. Supports the development of individual and collective artistic research projects. Additional work required of students taking the graduate version. Limited to 20.",
-            "id": "4.315",
             "title": "Advanced Workshop in Artistic Practice and Transdisciplinary Research"
         },
         {
@@ -1681,11 +1506,6 @@
             "title": "Introduction to Networked Cultures and Participatory Media"
         },
         {
-            "desc": "Provides an overview of participatory art practices, early net art, net activism, and current online practices in art and culture. Explores the cultural, social, and political impacts of mediated communication and examines how online communications have altered the way in which collaboration occurs, changes notions of authorship, and gives rise to collectives. Incorporates implementation, critique, and design exercises and experiments, developing skills in media literacy and communication. Lectures, screenings, readings, and discussions with guests and faculty lead to the development of group and individual projects. Additional work required of students taking the graduate version. Limited to 20.",
-            "id": "4.331",
-            "title": "Introduction to Networked Cultures and Participatory Media"
-        },
-        {
             "desc": "Provides skills in media literacy and communications necessary to create networked platforms and participatory media. Explores new and emergent critical platforms and strategies, such as independent and alternative media, hybrid TV, blogs, and other social media. Incorporates implementation, critique, and discussion of design exercises and experiments. Lectures, screenings, readings, and discussions with guests and faculty lead to the development of group and individual projects. Additional work required of students taking the graduate version. Limited to 20.",
             "id": "4.332",
             "title": "Advanced Seminar in Networked Cultures and Participatory Media"
@@ -1698,11 +1518,6 @@
         {
             "desc": "Limited to 20.",
             "id": "4.341",
-            "title": "Introduction to Photography and Related Media"
-        },
-        {
-            "desc": "Introduces history and contemporary practices in artistic photography through projects, lectures, artist visits, group discussions, readings, and field trips. Fosters visual literacy and aesthetic appreciation of photography/digital imaging, as well as critical awareness of how images in our culture are produced and constructed. Provides instruction in the fundamentals of different camera formats, film exposure and development, lighting, black and white darkroom printing, and digital imaging. Assignments allow for incorporation of a range of traditional and experimental techniques, development of technical skills, and personal exploration. Throughout the term, present and discuss projects in a critical forum. Additional work required of students taking the graduate version. Limited to 20.",
-            "id": "4.342",
             "title": "Introduction to Photography and Related Media"
         },
         {
@@ -1731,28 +1546,13 @@
             "title": "Introduction to Video and Related Media"
         },
         {
-            "desc": "Examines the technical and conceptual variables and strategies inherent in contemporary video art practice. Analyzes structural concepts of time, space, perspective, and sound within the art form. Building upon the historical legacy of film and other time-based image media, students render self-exploration, performance, social critique, and manipulation of raw experience into an aesthetic form. Emphasizes practical knowledge of lighting, video capturing and editing, and montage. Includes presentation and critique of student work, technical workshops, screenings, and readings with the objective of a final creative project. Additional work required of students taking the graduate version. Limited to 20.",
-            "id": "4.355",
-            "title": "Introduction to Video and Related Media"
-        },
-        {
             "desc": "Limited to 12.",
             "id": "4.356",
             "title": "Cinematic Migrations"
         },
         {
-            "desc": "Explores ideas and contexts behind moving images through a multifaceted look at cinema's transmutations, emergence on local and national levels, and global migrations. Examines the transformation caused by online video, television, spatial installations, performances, dance, and many formats and portable devices, as well as the theory and context of film's categorization, dissemination, and analysis. Presentations, screenings, field trips, readings, visiting artists, and experimental transdisciplinary projects broaden the perception of present cinema. Additional work required of students taking the graduate version. Limited to 12.",
-            "id": "4.357",
-            "title": "Cinematic Migrations"
-        },
-        {
             "desc": "Limited to 20.",
             "id": "4.361",
-            "title": "Performance Art Workshop"
-        },
-        {
-            "desc": "Surveys performance in relation to media and to spatial structures imagined as settings for narrative movements, and uses video to explore the perception of sounds and images and how they are altered by various devices. Students design visual forms and performative actions, and make props or objects that embody aspects of their narratives. Activities include readings and screenings on the theoretical and historical background of performance art. Assignments lead to a final performance project. Additional work required of students taking graduate version. Limited to 20.",
-            "id": "4.362",
             "title": "Performance Art Workshop"
         },
         {
@@ -1768,11 +1568,6 @@
         {
             "desc": "Limited to 20.",
             "id": "4.373",
-            "title": "Advanced Projects in Art, Culture and Technology"
-        },
-        {
-            "desc": "Investigates conceptual and formal issues in a variety of media. Explores representation, interpretation and meaning, and how these relate to historical, social and cultural contexts. Helps students develop an initial concept for a publicly situated project. Includes guest lectures and visiting artist presentations. Additional work required of students taking graduate version. Limited to 20.",
-            "id": "4.374",
             "title": "Advanced Projects in Art, Culture and Technology"
         },
         {
@@ -1797,42 +1592,7 @@
         },
         {
             "desc": "",
-            "id": "4.392",
-            "title": "Independent Study in Art, Culture and Technology"
-        },
-        {
-            "desc": "",
-            "id": "4.393",
-            "title": "Independent Study in Art, Culture and Technology"
-        },
-        {
-            "desc": "Supplementary work on individual basis. Registration subject to prior arrangement for subject matter and supervision by staff.",
-            "id": "4.394",
-            "title": "Independent Study in Art, Culture and Technology"
-        },
-        {
-            "desc": "",
             "id": "4.S30",
-            "title": "Special Subject: Art, Culture and Technology"
-        },
-        {
-            "desc": "",
-            "id": "4.S31",
-            "title": "Special Subject: Art, Culture and Technology"
-        },
-        {
-            "desc": "",
-            "id": "4.S32",
-            "title": "Special Subject: Art, Culture and Technology"
-        },
-        {
-            "desc": "",
-            "id": "4.S33",
-            "title": "Special Subject: Art, Culture and Technology"
-        },
-        {
-            "desc": "Seminar or lecture on a topic in visual arts that is not covered in the regular curriculum. Requires original research and presentation of oral and written reports and/or design projects, varying at the discretion of the instructor.",
-            "id": "4.S34",
             "title": "Special Subject: Art, Culture and Technology"
         },
         {
@@ -1871,11 +1631,6 @@
             "title": "Modeling Urban Energy Flows for Sustainable Cities and Neighborhoods"
         },
         {
-            "desc": "Studies energy flows in and around groups of buildings from individual buildings to complete large-scale neighborhoods. Students use emerging digital techniques to analyze and influence building design interventions in relation to energy use for construction (embodied energy) and operation, access to daylight, and assessing walkability and outdoor comfort at the neighborhood scale. Additional work required of students taking the graduate version.",
-            "id": "4.433",
-            "title": "Modeling Urban Energy Flows for Sustainable Cities and Neighborhoods"
-        },
-        {
             "desc": "Introduces the design and behavior of large-scale structures and structural materials. Emphasizes the development of structural form and the principles of structural design. Presents design methods for timber, masonry, concrete and steel applied to long-span roof systems, bridges, and high-rise buildings. Includes environmental assessment of structural systems and materials. In laboratory sessions, students solve structural problems by building and testing simple models. Graduate and undergraduate students have separate lab sections.",
             "id": "4.440[J]",
             "title": "Building Structural Systems I"
@@ -1883,11 +1638,6 @@
         {
             "desc": "",
             "id": "4.444",
-            "title": "Analysis of Historic Structures"
-        },
-        {
-            "desc": "Technical and historical study of structures in architecture and engineering. Focuses on the design and assessment of historic structures in masonry, timber, concrete, and metal. Course is driven by student research proposals. Previous student projects have researched Gothic flying buttresses, wooden covered bridges, Roman aqueducts, and iron train stations.",
-            "id": "4.445[J]",
             "title": "Analysis of Historic Structures"
         },
         {
@@ -1942,42 +1692,7 @@
         },
         {
             "desc": "",
-            "id": "4.492",
-            "title": "Independent Study in Building Technology"
-        },
-        {
-            "desc": "",
-            "id": "4.493",
-            "title": "Independent Study in Building Technology"
-        },
-        {
-            "desc": "Supplementary work on individual basis. Registration subject to prior arrangement for subject matter and supervision by staff.",
-            "id": "4.494",
-            "title": "Independent Study in Building Technology"
-        },
-        {
-            "desc": "",
             "id": "4.S40",
-            "title": "Special Subject: Building Technology"
-        },
-        {
-            "desc": "",
-            "id": "4.S41",
-            "title": "Special Subject: Building Technology"
-        },
-        {
-            "desc": "",
-            "id": "4.S42",
-            "title": "Special Subject: Building Technology"
-        },
-        {
-            "desc": "",
-            "id": "4.S43",
-            "title": "Special Subject: Building Technology"
-        },
-        {
-            "desc": "Seminar or lecture on a topic in building technology that is not covered in the regular curriculum. Requires original research and presentation of oral and written reports and/or design projects, varying at the discretion of the instructor.",
-            "id": "4.S44",
             "title": "Special Subject: Building Technology"
         },
         {
@@ -2051,19 +1766,9 @@
             "title": "Visual Computing II"
         },
         {
-            "desc": "Introduces advanced topics in shape grammar theory and applications. Includes an introductory component on shape grammars for students new to the area. Discusses generalizations of the shape grammar formalism that provide alternative ways of computing and representing designs. These include parametric grammars and parametric design, parallel grammars, and color grammars. Presents material through lectures and in-class, applied exercises. Additional work required of graduate students.",
-            "id": "4.523",
-            "title": "Visual Computing II"
-        },
-        {
             "desc": "",
             "id": "4.540",
             "title": "Introduction to Shape Grammars I"
-        },
-        {
-            "desc": "An in-depth introduction to shape grammars and their applications in architecture and related areas of design. Shapes in the algebras Ui j, in the algebras Vi j and Wi j incorporating labels and weights, and in algebras formed as composites of these. Rules and computations. Shape and structure. Designs.",
-            "id": "4.541",
-            "title": "Introduction to Shape Grammars II"
         },
         {
             "desc": "An advanced examination of the shape grammar formalism and its relationship to some key issues in a variety of other fields, including art and design, philosophy, history and philosophy of science, linguistics and psychology, literature and literary studies, logic and mathematics, and artificial intelligence. Student presentations and discussion of selected readings are encouraged. Topics vary from year to year. Can be repeated with permission of instructor.",
@@ -2074,16 +1779,6 @@
             "desc": "",
             "id": "4.550",
             "title": "Computational Design Lab"
-        },
-        {
-            "desc": "",
-            "id": "4.552",
-            "title": "Workshop in Architectural Computation"
-        },
-        {
-            "desc": "Opportunity for exploration of a topic in computation through research-focused design projects or exercises. Registration subject to prior arrangement of topic and supervision by staff.",
-            "id": "4.553",
-            "title": "Workshop in Architectural Computation"
         },
         {
             "desc": "See description under subject MAS.552[J].",
@@ -2162,42 +1857,7 @@
         },
         {
             "desc": "",
-            "id": "4.592",
-            "title": "Independent Study in Architectural Computation"
-        },
-        {
-            "desc": "",
-            "id": "4.593",
-            "title": "Independent Study in Architectural Computation"
-        },
-        {
-            "desc": "Supplementary work on individual basis. Registration subject to prior arrangement for subject matter and supervision by staff.",
-            "id": "4.594",
-            "title": "Independent Study in Architectural Computation"
-        },
-        {
-            "desc": "",
             "id": "4.S50",
-            "title": "Special Subject: Architectural Computation"
-        },
-        {
-            "desc": "",
-            "id": "4.S51",
-            "title": "Special Subject: Architectural Computation"
-        },
-        {
-            "desc": "",
-            "id": "4.S52",
-            "title": "Special Subject: Architectural Computation"
-        },
-        {
-            "desc": "",
-            "id": "4.S53",
-            "title": "Special Subject: Architectural Computation"
-        },
-        {
-            "desc": "Seminar or lecture on a topic in computation and design that is not covered in the regular curriculum. Requires original research and presentation of oral and written reports and/or design projects, varying at the discretion of the instructor.",
-            "id": "4.S54",
             "title": "Special Subject: Architectural Computation"
         },
         {
@@ -2261,11 +1921,6 @@
             "title": "Civic Islamic Architecture"
         },
         {
-            "desc": "In-depth analysis of selected examples of architecture in the Islamic world from the 7th to the 21st century. Examines the effects of politics, culture, religion, technology, and fashion on the formation and development of Islamic architectural traditions and situates them diachronically and synchronically in world context. Additional work required of students taking the graduate version.",
-            "id": "4.611",
-            "title": "Civic Islamic Architecture"
-        },
-        {
             "desc": "Studies how Islamic architecture, landscape architecture, and urban planning reflect and transform environmental processes in various regions and climates of the Islamic world, from Andalusia to Southeast Asia, with an emphasis on South Asia, Central Asia, and the Middle East. Using systematic approaches to environmental data collection and analysis, examines strategies behind the design of selected architectural elements and landscape design types, ranging in scale from the fountain to the garden, courtyard, city, and agrarian region. Critically explores cultural interpretations of Islamic environmental design (e.g., paradise gardens), as they developed over time in ways that enrich, modify, or obscure their historical significance.",
             "id": "4.612",
             "title": "Islamic Architecture and the Environment"
@@ -2321,11 +1976,6 @@
             "title": "Early Modern Architecture and Art"
         },
         {
-            "desc": "Presents a history, from the 14th through the early 17th century, of architectural practice and design, as well as visual culture in Europe with an emphasis on Italy. Topics include the production and reception of buildings and artworks; the significance of a reinvigorated interest in antiquity; and representation of the individual, the state, and other institutions.Examines a variety of interpretive methods. Graduate students are expected to complete additional assignments.",
-            "id": "4.635",
-            "title": "Early Modern Architecture and Art"
-        },
-        {
             "desc": "Seminar on a selected topic in critical theory. Requires original research and presentation of oral and written report.",
             "id": "4.640",
             "title": "Advanced Study in Critical Theory of Architecture"
@@ -2333,11 +1983,6 @@
         {
             "desc": "",
             "id": "4.641",
-            "title": "19th-Century Art"
-        },
-        {
-            "desc": "Survey of visual culture from the late 18th century to 1900 with an emphasis on Western Europe and its global points of contact. Topics include art and revolution, empire and its image, mythologies of the artist, gender and representation, public exhibitions, the dealer/critic system, and the emergence of the avant-garde. Strikes a balance between historical and contemporary critical perspectives to assess art's engagement with social and political experience of modernity. Additional work required of students taking the graduate version.",
-            "id": "4.644",
             "title": "19th-Century Art"
         },
         {
@@ -2396,18 +2041,8 @@
             "title": "Nationalism, Internationalism, and Globalism in Modern Art"
         },
         {
-            "desc": "Studies how international modernism interacted with the concept of &quot;nation&quot; and how contemporary discourses concerning globalism changes that dynamic. Looks at how art uses and critiques globalization on various levels. Seminar attendance and visits to art museums required. Research paper required of students taking the graduate version.",
-            "id": "4.671",
-            "title": "Nationalism, Internationalism, and Globalism in Modern Art"
-        },
-        {
             "desc": "",
             "id": "4.672",
-            "title": "Installation Art"
-        },
-        {
-            "desc": "Focuses on a specific genre of contemporary art that produces environments or room-sized immersive forms rather than portable &quot;art objects.&quot; Installation art is viewed from a historical perspective, as a rejection of the modernist aesthetic of purity and the neutral white gallery space. Its corollary in site-specific art is explored in relation to previous exhibition models such as natural history displays or merchandising conventions. Graduate students will be expected to produce a final research paper.",
-            "id": "4.673",
             "title": "Installation Art"
         },
         {
@@ -2543,11 +2178,6 @@
         {
             "desc": "",
             "id": "4.UR",
-            "title": "Undergraduate Research in Design"
-        },
-        {
-            "desc": "Research and project activities, which cover the range represented by the various research interests and projects in the department. Students who wish a letter grade option for their work must register for 4.URG.",
-            "id": "4.URG",
             "title": "Undergraduate Research in Design"
         },
         {
@@ -2891,18 +2521,8 @@
             "title": "Special Subject in Biological Engineering"
         },
         {
-            "desc": "Detailed discussion of selected topics of current interest. Classwork in various areas not covered by regular subjects.",
-            "id": "20.S940",
-            "title": "Special Subject in Biological Engineering"
-        },
-        {
             "desc": "",
             "id": "20.S947-20.S949",
-            "title": "Special Subject in Biological Engineering"
-        },
-        {
-            "desc": "Detailed discussion of selected topics of current interest. Classwork in various areas not covered by regular subjects.",
-            "id": "20.S952",
             "title": "Special Subject in Biological Engineering"
         },
         {
@@ -3121,31 +2741,6 @@
             "title": "Independent Study in Biology"
         },
         {
-            "desc": "",
-            "id": "7.392",
-            "title": "Independent Study in Biology"
-        },
-        {
-            "desc": "",
-            "id": "7.393",
-            "title": "Independent Study in Genetics"
-        },
-        {
-            "desc": "",
-            "id": "7.394",
-            "title": "Independent Study in Biochemistry"
-        },
-        {
-            "desc": "",
-            "id": "7.395",
-            "title": "Independent Study in Cell and Molecular Biology"
-        },
-        {
-            "desc": "Program of study or research to be arranged with a department faculty member.",
-            "id": "7.396",
-            "title": "Independent Study in Experimental Biology"
-        },
-        {
             "desc": "Covers material in various fields of biology not offered by the regular subjects of instruction.",
             "id": "7.S390",
             "title": "Special Subject in Biology"
@@ -3168,11 +2763,6 @@
         {
             "desc": "",
             "id": "7.UR",
-            "title": "Undergraduate Research"
-        },
-        {
-            "desc": "Undergraduate research opportunities in the Department of Biology. For further information, consult departmental coordinator, Gene Brown.",
-            "id": "7.URG",
             "title": "Undergraduate Research"
         },
         {
@@ -3471,11 +3061,6 @@
             "title": "Independent Study in Biology"
         },
         {
-            "desc": "Program of study or research to be arranged with a department faculty member.",
-            "id": "7.932",
-            "title": "Independent Study in Biology"
-        },
-        {
             "desc": "Introduces students to faculty participating in the Biology graduate program through a series of lab rotations, which provide broad exposure to biology research at MIT. Students select a lab for thesis research by the end of their first year. Limited to students in the Biology graduate program.",
             "id": "7.933",
             "title": "Research Rotations in Biology"
@@ -3493,11 +3078,6 @@
         {
             "desc": "",
             "id": "7.941",
-            "title": "Research Problems"
-        },
-        {
-            "desc": "Directed research in a field of biological science, but not contributory to graduate thesis.",
-            "id": "7.942",
             "title": "Research Problems"
         },
         {
@@ -3648,11 +3228,6 @@
         {
             "desc": "",
             "id": "9.18[J]",
-            "title": "Developmental Neurobiology"
-        },
-        {
-            "desc": "Considers molecular control of neural specification, formation of neuronal connections, construction of neural systems, and the contributions of experience to shaping brain structure and function. Topics include: neural induction and pattern formation, cell lineage and fate determination, neuronal migration, axon guidance, synapse formation and stabilization, activity-dependent development and critical periods, development of behavior. In addition to final exam, analysis and presentation of research papers required for final grade. Students taking graduate version complete additional assignments. Students taking graduate version complete additional readings that will be addressed in their mid-term and final exams.",
-            "id": "9.181[J]",
             "title": "Developmental Neurobiology"
         },
         {
@@ -3916,11 +3491,6 @@
             "title": "Undergraduate Research"
         },
         {
-            "desc": "Individual participation in an ongoing research project.",
-            "id": "9.URG",
-            "title": "Undergraduate Research"
-        },
-        {
             "desc": "Project-based introduction to the applications of engineering design at the molecular level. Working in teams, students complete an open-ended design project that focuses on a topic such as reactor or biomolecular engineering, chemical process design, materials and polymers, or energy. Provides students practical exposure to the field of chemical engineering as well as potential opportunities to continue their project designs in national/international competitions. Limited to 36; preference to first year students.",
             "id": "10.00",
             "title": "Molecule Builders"
@@ -4121,11 +3691,6 @@
             "title": "Integrated Chemical Engineering I"
         },
         {
-            "desc": "Presents and solves chemical engineering problems in an industrial context, with applications varying by term. Emphasis on the integration of fundamental concepts with approaches of process design. Emphasis on problems that demand synthesis, economic analysis, and process design.",
-            "id": "10.491",
-            "title": "Integrated Chemical Engineering II"
-        },
-        {
             "desc": "Chemical engineering problems presented and analyzed in an industrial context. Emphasizes the integration of fundamentals with material property estimation, process control, product development, and computer simulation. Integration of societal issues, such as engineering ethics, environmental and safety considerations, and impact of technology on society are addressed in the context of case studies. 10.37 and 10.302 required for certain topic modules. See departmental website for individual ICE-T module descriptions.",
             "id": "10.492",
             "title": "Integrated Chemical Engineering Topics I"
@@ -4134,11 +3699,6 @@
             "desc": "",
             "id": "10.493",
             "title": "Integrated Chemical Engineering Topics II"
-        },
-        {
-            "desc": "Chemical engineering problems presented and analyzed in an industrial context. Emphasizes the integration of fundamentals with material property estimation, process control, product development, and computer simulation. Integration of societal issues, such as engineering ethics, environmental and safety considerations, and impact of technology on society are addressed in the context of case studies. 10.37 and 10.302 required for certain topic modules. See departmental website for individual ICE-T module descriptions.",
-            "id": "10.494",
-            "title": "Integrated Chemical Engineering Topics III"
         },
         {
             "desc": "Examines challenges and opportunities for applying chemical engineering principles to address the growing global burden of infectious disease, including drug-resistant strains and neglected pathogens. Topics include a historical overview of vaccines and immunotherapies, the molecular design considerations for new immunotherapies and adjuvants, the economic challenges for process development and manufacturing of immunotherapies, and new technologies for designing and assessing therapies. Case studies to cover topics for specific diseases. Students taking graduate version complete additional assignments.",
@@ -4431,11 +3991,6 @@
             "title": "Independent Research Problem"
         },
         {
-            "desc": "For undergraduate students who wish to carry out a special investigation in a particular field. Topic and hours arranged.",
-            "id": "10.911",
-            "title": "Independent Research Problem"
-        },
-        {
             "desc": "Students present their research to other students and staff. Research topics include heterogeneous catalysis, design of catalytic materials, biomass conversion, biofuels, and CO2 utilization.",
             "id": "10.953",
             "title": "Seminar in Heterogeneous Catalysis"
@@ -4591,11 +4146,6 @@
             "title": "Seminar in Chemical Engineering"
         },
         {
-            "desc": "For students working on doctoral theses.",
-            "id": "10.992",
-            "title": "Seminar in Chemical Engineering"
-        },
-        {
             "desc": "Presentations and discussion by graduate students, postdoctoral fellows, and visiting scientists of current literature and research on the engineering of protein biopharmaceuticals. Topics include combinatorial library construction and screening strategies, antibody engineering, gene therapy, cytokine engineering, and immunotherapy engineering strategies.",
             "id": "10.994",
             "title": "Molecular Bioengineering"
@@ -4648,11 +4198,6 @@
         {
             "desc": "",
             "id": "10.UR",
-            "title": "Undergraduate Research"
-        },
-        {
-            "desc": "Opportunity for participation in a research group, or for special investigation in a particular field. Topic and hours to fit individual requirements.",
-            "id": "10.URG",
             "title": "Undergraduate Research"
         },
         {
@@ -4916,11 +4461,6 @@
             "title": "Independent Study in Chemistry for Undergraduates"
         },
         {
-            "desc": "Program of independent study under direction of Chemistry faculty member. May not substitute for required courses for the Chemistry major or minor.",
-            "id": "5.892",
-            "title": "Independent Study in Chemistry for Undergraduates"
-        },
-        {
             "desc": "Directed research and study of special chemical problems. For Chemistry graduate students only.",
             "id": "5.90",
             "title": "Problems in Chemistry"
@@ -4974,11 +4514,6 @@
             "desc": "",
             "id": "1.00",
             "title": "Engineering Computation and Data Science"
-        },
-        {
-            "desc": "Presents the fundamentals of computing and computer programming (procedural and object-oriented programming) in an engineering context. Introduces logical operations, floating-point arithmetic, data structures, induction, iteration, and recursion. Computational methods for interpolation, regression, root finding, sorting, searching, and the solution of linear systems of equations and ordinary differential equations. Control of sensors and visualization of scientific data. Draws examples from engineering and scientific applications. Students use the MATLAB programming environment to complete weekly assignments.",
-            "id": "1.000",
-            "title": "Computer Programming for Scientific and Engineering Applications"
         },
         {
             "desc": "Presents fundamentals of computing and programming in an engineering context with an emphasis on data science. Introduces basics of web computing, data structures, and techniques for data analysis. Includes filtering, linear regression, simple machine learning (clustering and classifiers), and visualization. Surveys techniques for ingesting, processing, analyzing, and visualizing engineering data from a range of fields, including geo-spatial, environment, infrastructure, city dynamics, and numerical experiments. Students use JavaScript and HTML5 programming language to complete weekly assignments. Students taking graduate version complete additional assignments.",
@@ -5811,11 +5346,6 @@
             "title": "Graduate Studies in Civil and Environmental Engineering"
         },
         {
-            "desc": "Individual study, research, or laboratory investigations at the graduate level under faculty supervision.",
-            "id": "1.969",
-            "title": "Graduate Studies in Civil and Environmental Engineering"
-        },
-        {
             "desc": "For research assistants in the department, when assigned research is not used for thesis but is approved for academic credit. Credit for this subject may not be used for any degree granted by Course 1.",
             "id": "1.982",
             "title": "Research in Civil and Environmental Engineering"
@@ -5856,11 +5386,6 @@
             "title": "Research in Civil and Environmental Engineering"
         },
         {
-            "desc": "Individual research or laboratory study under faculty supervision. Also opportunities in ongoing research program.",
-            "id": "1.URG",
-            "title": "Research in Civil and Environmental Engineering"
-        },
-        {
             "desc": "Advanced study of topics not covered in the regular subject listings, particularly seminar, laboratory, and experimental subjects offered by permanent or visiting faculty. Addresses topics in environmental microbiology, ecological genomics, microbial evolution and population genetics, oceanography, biogeochemical processes, environmental organic chemistry and aquatic chemistry.",
             "id": "1.S82",
             "title": "Special Problems in Environmental Microbiology and Chemistry"
@@ -5873,11 +5398,6 @@
         {
             "desc": "",
             "id": "1.S978",
-            "title": "Special Graduate Subject in Civil and Environmental Engineering"
-        },
-        {
-            "desc": "Graduate subjects taught experimentally; subjects offered by visiting faculty; and seminars on topics of current interest not included in the regular curriculum. 1.978 is taught P/D/F.",
-            "id": "1.S979",
             "title": "Special Graduate Subject in Civil and Environmental Engineering"
         },
         {
@@ -5898,11 +5418,6 @@
         {
             "desc": "",
             "id": "1.S991",
-            "title": "Special Undergraduate Subject in Civil and Environmental Engineering"
-        },
-        {
-            "desc": "Subjects taught experimentally; subjects offered by visiting faculty; and seminars on topics of current interest not included in the regular curriculum. 1.S991 is taught P/D/F.",
-            "id": "1.S992",
             "title": "Special Undergraduate Subject in Civil and Environmental Engineering"
         },
         {
@@ -6041,11 +5556,6 @@
             "title": "Independent Study"
         },
         {
-            "desc": "Opportunity for individual research in comparative media studies. Registration subject to prior arrangement for subject matter and supervision by a faculty member.",
-            "id": "CMS.604",
-            "title": "Independent Study"
-        },
-        {
             "desc": "Part-time internships arranged in Boston and the wider Northeast for students wishing to develop professional experience in a media production organization or industry. Students work with a CMS faculty advisor to produce a white paper on a research topic of interest based on their intern experience. Students planning to take this subject must contact the instructor before the end of the preceding term.",
             "id": "CMS.605",
             "title": "Media Internship"
@@ -6173,11 +5683,6 @@
         {
             "desc": "",
             "id": "CMS.UR",
-            "title": "Research in Comparative Media Studies"
-        },
-        {
-            "desc": "Individual participation in an ongoing research project. For students in the Undergraduate Research Opportunities Program.",
-            "id": "CMS.URG",
             "title": "Research in Comparative Media Studies"
         },
         {
@@ -6826,11 +6331,6 @@
             "title": "Research in Writing and Humanistic Studies"
         },
         {
-            "desc": "Individual participation in an ongoing research project. For students in the Undergraduate Research Opportunities Program.",
-            "id": "21W.URG",
-            "title": "Research in Writing and Humanistic Studies"
-        },
-        {
             "desc": "Designed to improve the student's ability to communicate technical information. Covers the basics of working with sources, including summarizing and paraphrasing, synthesizing source materials, citing, quoting, and avoiding plagiarism. Also covers how to write an abstract and a literature review. Limited to graduate engineering students based on results of the Graduate Writing Exam.",
             "id": "21W.794",
             "title": "Graduate Technical Writing Workshop"
@@ -7018,16 +6518,6 @@
         {
             "desc": "Preference to students in Concourse.",
             "id": "CC.S10",
-            "title": "Special Subject: Concourse"
-        },
-        {
-            "desc": "Preference to students in Concourse.",
-            "id": "CC.S11",
-            "title": "Special Subject: Concourse"
-        },
-        {
-            "desc": "Covers topics not included in the permanent curriculum. May be repeated for credit with permission of instructor. Preference to students in Concourse.",
-            "id": "CC.S20,\u00a0CC.S21",
             "title": "Special Subject: Concourse"
         },
         {
@@ -7436,18 +6926,8 @@
             "title": "Current Topics in Earth, Atmospheric, and Planetary Sciences"
         },
         {
-            "desc": "Laboratory or field work in earth, atmospheric, and planetary sciences. Consult with department Education Office.",
-            "id": "12.091",
-            "title": "Current Topics in Earth, Atmospheric, and Planetary Sciences"
-        },
-        {
             "desc": "",
             "id": "12.092",
-            "title": "Current Topics in Geology and Geochemistry"
-        },
-        {
-            "desc": "Laboratory or field work in geology and geochemistry. To be arranged with department faculty. Consult with department Education Office.",
-            "id": "12.093",
             "title": "Current Topics in Geology and Geochemistry"
         },
         {
@@ -7456,18 +6936,8 @@
             "title": "Current Topics in Geophysics"
         },
         {
-            "desc": "Laboratory or field work in geophysics. To be arranged with department faculty. Consult with department Education Office.",
-            "id": "12.095",
-            "title": "Current Topics in Geophysics"
-        },
-        {
             "desc": "",
             "id": "12.096",
-            "title": "Current Topics in Atmospheric Science and Oceanography"
-        },
-        {
-            "desc": "Laboratory or field work in atmospheric science and oceanography. To be arranged with department faculty. Consult with department Education Office.",
-            "id": "12.097",
             "title": "Current Topics in Atmospheric Science and Oceanography"
         },
         {
@@ -7718,11 +7188,6 @@
         {
             "desc": "",
             "id": "12.UR",
-            "title": "Undergraduate Research"
-        },
-        {
-            "desc": "Undergraduate research opportunities in Earth, Atmospheric, and Planetary Sciences.",
-            "id": "12.URG",
             "title": "Undergraduate Research"
         },
         {
@@ -8706,11 +8171,6 @@
             "title": "Workshop in Economic Research"
         },
         {
-            "desc": "Develops research ability of students through intensive discussion of dissertation research as it proceeds, individual or group research projects, and critical appraisal of current reported research. Workshops divided into various fields, depending on interest and size.",
-            "id": "14.392",
-            "title": "Workshop in Economic Research"
-        },
-        {
             "desc": "Explores the role of government in the economy, applying tools of basic microeconomics to answer important policy questions such as government response to global warming, school choice by K-12 students, Social Security versus private retirement savings accounts, government versus private health insurance, setting income tax rates for individuals and corporations. Students taking the graduate version complete additional assignments.",
             "id": "14.41",
             "title": "Public Finance and Public Policy"
@@ -8851,11 +8311,6 @@
             "title": "Foundations of Development Policy"
         },
         {
-            "desc": "Explores the foundations of policy making in developing countries. Goal is to spell out various policy options and to quantify the trade-offs between them. Special emphasis on education, health, gender, fertility, adoption of technological innovation, and the markets for land, credit, and labor. Students taking the graduate version complete additional assignments.",
-            "id": "14.740",
-            "title": "Foundations of Development Policy"
-        },
-        {
             "desc": "Explores the relationship between political institutions and economic development, covering key theoretical issues as well as recent empirical evidence. Topics include corruption, democracy, dictatorship, and war. Discusses not just what we know on these topics, but how we know it, covering how to craft a good empirical study or field experiment and how to discriminate between reliable and unreliable evidence.",
             "id": "14.75",
             "title": "Political Economy and Economic Development"
@@ -8903,11 +8358,6 @@
         {
             "desc": "",
             "id": "14.UR",
-            "title": "Undergraduate Research"
-        },
-        {
-            "desc": "Participation in research with an individual faculty member or research group, independent research or study under the guidance of a faculty member. Admission by arrangement with individual faculty member.",
-            "id": "14.URG",
             "title": "Undergraduate Research"
         },
         {
@@ -9131,23 +8581,8 @@
             "title": "Undergraduate Research"
         },
         {
-            "desc": "Undergraduate research opportunities in the Edgerton Center.",
-            "id": "EC.URG",
-            "title": "Undergraduate Research"
-        },
-        {
             "desc": "",
             "id": "EC.S00-EC.S05",
-            "title": "Special Subject at the Edgerton Center"
-        },
-        {
-            "desc": "",
-            "id": "EC.S06-EC.S10",
-            "title": "Special Subject at the Edgerton Center"
-        },
-        {
-            "desc": "Seminar combining lectures and lab run by students and academic staff at the Edgerton Center. Students explore specialized electronics, robotics, or mechanical design and fabrication topics not offered in the regular curriculum; classes range from beginner level to more advanced. Some offerings may be taught in an intensive fashion (meeting for up to several times a week for four weeks). Up to three sequential seminars may be offered per semester, covering a different topic each time. Students can take one or all of the seminars.",
-            "id": "EC.S11",
             "title": "Special Subject at the Edgerton Center"
         },
         {
@@ -10346,16 +9781,6 @@
             "title": "Advanced Topics in Artificial Intelligence"
         },
         {
-            "desc": "",
-            "id": "6.883",
-            "title": "Advanced Topics in Artificial Intelligence"
-        },
-        {
-            "desc": "Advanced study of topics in artificial intelligence. Specific focus varies from year to year. Consult department for details.",
-            "id": "6.884",
-            "title": "Advanced Topics in Artificial Intelligence"
-        },
-        {
             "desc": "Advanced study of topics in computer systems. Specific focus varies from year to year. Consult department for details.",
             "id": "6.885-6.888",
             "title": "Advanced Topics in Computer Systems"
@@ -10756,18 +10181,8 @@
             "title": "Special Seminar in Mathematics"
         },
         {
-            "desc": "Covers topics not included in the permanent curriculum. May not be used for GIR credit, but may be repeated for credit with permission of instructor. Preference to students in ESG.",
-            "id": "ES.S21",
-            "title": "Special Seminar in Mathematics"
-        },
-        {
             "desc": "Preference to students in ESG.",
             "id": "ES.S30",
-            "title": "Special Seminar in Engineering and Computer Science"
-        },
-        {
-            "desc": "Covers topics not included in the permanent curriculum. May not be used for GIR credit, but may be repeated for credit with permission of instructor. Preference to students in ESG.",
-            "id": "ES.S31",
             "title": "Special Seminar in Engineering and Computer Science"
         },
         {
@@ -10787,11 +10202,6 @@
         },
         {
             "desc": "Covers topics not included in the permanent curriculum. May not be used for GIR credit, but may be repeated for credit with permission of instructor. Preference to students in ESG.",
-            "id": "ES.S51",
-            "title": "Special Seminar in the Arts"
-        },
-        {
-            "desc": "Covers topics not included in the permanent curriculum. May not be used for GIR credit, but may be repeated for credit with permission of instructor. Preference to students in ESG.",
             "id": "ES.S60",
             "title": "Special Seminar in Social Science"
         },
@@ -10803,11 +10213,6 @@
         {
             "desc": "Preference to students in ESG.",
             "id": "ES.S70",
-            "title": "Special Seminar in Interdisciplinary Studies"
-        },
-        {
-            "desc": "Covers topics not included in the permanent curriculum. May not be used for GIR credit, but may be repeated for credit with permission of instructor. Preference to students in ESG.",
-            "id": "ES.S71",
             "title": "Special Seminar in Interdisciplinary Studies"
         },
         {
@@ -11221,11 +10626,6 @@
             "title": "French: Communication Intensive I"
         },
         {
-            "desc": "Intensive tutorial in writing and speaking for majors. Provides students with enhanced linguistic and cultural fluency for academic or real-world purposes. 21G.307 builds on writing and speaking skills acquired in 21G.306. Conducted entirely in French. Preference to French majors.",
-            "id": "21G.307",
-            "title": "French: Communication Intensive II"
-        },
-        {
             "desc": "For students who wish to continue with language study before taking upper-level subjects in literature or culture. Emphasis on development of reading and writing skills, review of the basic concepts of French grammar, and acquisition of precise vocabulary through the use of printed materials, short stories, and poems. Taught in French.",
             "id": "21G.308",
             "title": "Writing (Like the) French"
@@ -11319,11 +10719,6 @@
             "desc": "Preference to German majors.",
             "id": "21G.406",
             "title": "German: Communication Intensive I"
-        },
-        {
-            "desc": "Intensive tutorial in writing and speaking for majors. Provides students with enhanced linguistic and cultural fluency for academic or real-world purposes. 21G.407 builds on writing and speaking skills acquired in 21G.406. Conducted entirely in German. Preference to German majors.",
-            "id": "21G.407",
-            "title": "German: Communication Intensive II"
         },
         {
             "desc": "Prepares students for working and living in German-speaking countries. Focuses on current political, social, and cultural issues, using newspapers, TV, radio broadcasts, podcasts, and Web sources from Germany, Austria, and Switzerland. Emphasizes speaking and listening skills for professional contexts. Project-based course includes oral presentations, group discussions, guest lectures, and live interviews with German speakers. Progress tracked with student portfolios. Taught in German. No listeners.",
@@ -11591,11 +10986,6 @@
             "title": "Spanish: Communication Intensive I"
         },
         {
-            "desc": "Intensive tutorial in writing and speaking for majors. Provides students with enhanced linguistic and cultural fluency for academic or real-world purposes. Conducted entirely in Spanish. Preference to Spanish majors.",
-            "id": "21G.709",
-            "title": "Spanish: Communication Intensive II"
-        },
-        {
             "desc": "Focuses on expository and journalistic writing that examines the social and cultural impact of science and technology in Hispanic societies. Topics considered are: family structure and community, personal identity, gender relations, relationship to natural world, value systems and religion, education and work-life. Ethical implications of technological decision-making also discussed. Improves oral and written skills through discussions of audiovisual materials, simulations, interviews, guided compositions, regular journal writing, and participation on an online forum. Readings include: journalistic reports, essays, and literary selections offering diverse perspectives. Taught in Spanish. Enrollment limited.",
             "id": "21G.711",
             "title": "Advanced Spanish Conversation and Composition: Perspectives on Technology and Culture"
@@ -11733,11 +11123,6 @@
         {
             "desc": "",
             "id": "21G.UR",
-            "title": "Undergraduate Research"
-        },
-        {
-            "desc": "",
-            "id": "21G.URG",
             "title": "Undergraduate Research"
         },
         {
@@ -12291,33 +11676,13 @@
             "title": "Undergraduate Research in Health Sciences and Technology"
         },
         {
-            "desc": "Extended participation in the work of a faculty member or research group. Research is arranged by mutual agreement between the student and a member of the faculty of the Harvard-MIT Division of Health Sciences and Technology, and may continue over several terms. Registration requires submission of a written proposal, signed by the faculty supervisor. A summary report must be submitted at the end of each term.",
-            "id": "HST.URG",
-            "title": "Undergraduate Research in Health Sciences and Technology"
-        },
-        {
             "desc": "",
             "id": "HST.S14-HST.S15",
             "title": "Special Subject: Health Sciences and Technology"
         },
         {
             "desc": "",
-            "id": "HST.S16-HST.S17",
-            "title": "Special Subject: Health Sciences and Technology"
-        },
-        {
-            "desc": "Opportunity for group study of advanced subjects related to health sciences and technology not otherwise included in the curriculum. Offerings are initiated by HST faculty on an ad hoc basis subject to program approval. Prerequisites may vary by topic; consult faculty at time of offering.",
-            "id": "HST.S18-HST.S19",
-            "title": "Special Subject: Health Sciences and Technology"
-        },
-        {
-            "desc": "",
             "id": "HST.S46-HST.S47",
-            "title": "Special Subject: Health Sciences and Technology"
-        },
-        {
-            "desc": "Group study of subjects related to health sciences and technology not otherwise included in the curriculum. Prerequisites may vary by topic; consult faculty at time of offering.",
-            "id": "HST.S48-HST.S49",
             "title": "Special Subject: Health Sciences and Technology"
         },
         {
@@ -12346,11 +11711,6 @@
             "title": "Special Subject: Medical Engineering and Medical Physics"
         },
         {
-            "desc": "Opportunity for group study of advanced subjects related to the Medical Engineering and Medical Physics Program not otherwise included in the curriculum. Offerings are initiated by MEMP faculty on an ad hoc basis subject to program approval. Prerequisites may vary by topic; consult faculty at time of offering.",
-            "id": "HST.S58-HST.S59",
-            "title": "Special Subject: Medical Engineering and Medical Physics"
-        },
-        {
             "desc": "Opportunity for group study of advanced subjects related to the Speech and Hearing Sciences not otherwise included in the curriculum. Offerings initiated by members of the SHS faculty on an ad hoc basis subject to program approval. Prerequisites may vary by topic; consult faculty at time of offering.",
             "id": "HST.S76",
             "title": "Special Subject: Speech and Hearing Sciences"
@@ -12368,11 +11728,6 @@
         {
             "desc": "",
             "id": "HST.S96-HST.S97",
-            "title": "Special Subject: Biomedical Enterprise"
-        },
-        {
-            "desc": "Opportunity for group study of advanced subjects relating to biomedical enterprise not otherwise included in the curriculum. Offerings are initiated by HST faculty on an ad hoc basis subject to program approval. Prerequisites may vary by topic. Consult faculty at time of offering.",
-            "id": "HST.S98-HST.S99",
             "title": "Special Subject: Biomedical Enterprise"
         },
         {
@@ -12766,11 +12121,6 @@
             "title": "Undergraduate Research"
         },
         {
-            "desc": "",
-            "id": "21H.URG",
-            "title": "Undergraduate Research"
-        },
-        {
             "desc": "Develops teaching knowledge and research skills through extensive reading and discussion of major works in modern US history. Readings cover a range of topics and historical methods. Students make frequent oral presentations and submit a major work consisting of original research or historiographic interpretation.",
             "id": "21H.902",
             "title": "Reading Seminar in American History: 1877 to Present"
@@ -12806,11 +12156,6 @@
             "title": "Graduate Independent Study"
         },
         {
-            "desc": "Individual supervised work for students who wish to explore an area of interest in history. Before registering, a student must plan a course of study with a member of the History Faculty and secure approval from the Head of the History Faculty.",
-            "id": "21H.993",
-            "title": "Graduate Independent Study"
-        },
-        {
             "desc": "For qualified graduate students serving as either a teaching assistant or instructor for subjects in History. Enrollment limited by availability of suitable teaching assignments.",
             "id": "21H.999",
             "title": "Teaching History"
@@ -12829,11 +12174,6 @@
             "desc": "",
             "id": "21.UR",
             "title": "Undergraduate Research in Humanities"
-        },
-        {
-            "desc": "Individual participation in an ongoing research project. For students in the Undergraduate Research Opportunities Program.",
-            "id": "21.URG",
-            "title": "Research in Humanities"
         },
         {
             "desc": "Introduction to the problems of philosophy- in particular, to problems in ethics, metaphysics, theory of knowledge, and philosophy of logic, language, and science. A systematic rather than historical approach. Readings from classical and contemporary sources, but emphasis is on examination and evaluation of proposed solutions to the problems.",
@@ -13016,18 +12356,8 @@
             "title": "Special Subject: Philosophy"
         },
         {
-            "desc": "Undergraduate subject that covers topics not offered in the regular curriculum. Consult department to learn of offerings for a particular term.",
-            "id": "24.S20",
-            "title": "Special Subject: Philosophy"
-        },
-        {
             "desc": "",
             "id": "24.UR",
-            "title": "Undergraduate Research"
-        },
-        {
-            "desc": "Research opportunities in linguistics and philosophy. For further information consult the departmental coordinators.",
-            "id": "24.URG",
             "title": "Undergraduate Research"
         },
         {
@@ -13118,11 +12448,6 @@
         {
             "desc": "",
             "id": "24.891",
-            "title": "Independent Study: Philosophy"
-        },
-        {
-            "desc": "Open to qualified graduate students in philosophy who wish to pursue special studies or projects.",
-            "id": "24.892",
             "title": "Independent Study: Philosophy"
         },
         {
@@ -13238,11 +12563,6 @@
         {
             "desc": "",
             "id": "24.UR",
-            "title": "Undergraduate Research"
-        },
-        {
-            "desc": "Research opportunities in linguistics and philosophy. For further information consult the departmental coordinators.",
-            "id": "24.URG",
             "title": "Undergraduate Research"
         },
         {
@@ -13832,37 +13152,7 @@
         },
         {
             "desc": "",
-            "id": "21L.S89",
-            "title": "Special Subject in Literature"
-        },
-        {
-            "desc": "",
-            "id": "21L.S90",
-            "title": "Special Subject in Literature"
-        },
-        {
-            "desc": "",
-            "id": "21L.S91,\u00a021L.S92",
-            "title": "Special Subject in Literature"
-        },
-        {
-            "desc": "",
-            "id": "21L.S93,\u00a021L.S94",
-            "title": "Special Subject in Literature"
-        },
-        {
-            "desc": "Covers topics in Literature that are not provided in the regular subject offerings. Units vary depending on the number of class meetings, readings and assignments. May be repeated for credit if the subjects are different.",
-            "id": "21L.S95",
-            "title": "Special Subject in Literature"
-        },
-        {
-            "desc": "",
             "id": "21L.S96",
-            "title": "Special Subject in Film and Media"
-        },
-        {
-            "desc": "Open to qualified students who wish to pursue special projects with film and media studies faculty. Individual or small group projects encouraged. Usually limited to 6 credits. May be repeated for credit with additional permission of the instructor.",
-            "id": "21L.S97",
             "title": "Special Subject in Film and Media"
         },
         {
@@ -13881,11 +13171,6 @@
             "title": "Undergraduate Research"
         },
         {
-            "desc": "Individual participation in an ongoing research project. For students in the Undergraduate Research Opportunities Program.",
-            "id": "21L.URG",
-            "title": "Undergraduate Research"
-        },
-        {
             "desc": "Units assigned to MBA students upon completion of the Sloan Innovation Period requirement. MBAs only.",
             "id": "15.002",
             "title": "Sloan Innovation Period Requirement"
@@ -13898,11 +13183,6 @@
         {
             "desc": "Restricted to first-year Sloan master's students.",
             "id": "15.010",
-            "title": "Economic Analysis for Business Decisions"
-        },
-        {
-            "desc": "Introduces principles of microeconomics as a framework for making more informed managerial decisions and policy analysis. Includes the analysis of competitive markets with supply and demand, sources of market power and strategic pricing. Also provides an introduction to game theory to illustrate competition, anti-trust policy, and how to generate cooperation both within and between firms. Expectations and evaluation criteria differ for students taking graduate version; consult syllabus or instructor for specific details. Intended for non-MBA students.",
-            "id": "15.011",
             "title": "Economic Analysis for Business Decisions"
         },
         {
@@ -14256,11 +13536,6 @@
             "title": "Seminar in Communications"
         },
         {
-            "desc": "Group study of current topics related to communication.",
-            "id": "15.278",
-            "title": "Seminar in Communications"
-        },
-        {
             "desc": "Develops writing, speaking, teamwork, interpersonal, and cross-cultural communication skills necessary for management professionals. Assignments include creating persuasive memos, writing in response to cases, and giving presentations. Major project involves the production of a team report and presentation on a topic of interest to a professional audience.",
             "id": "15.279",
             "title": "Management Communication for Undergraduates"
@@ -14373,11 +13648,6 @@
         {
             "desc": "",
             "id": "15.328",
-            "title": "Seminar in Organizational Studies"
-        },
-        {
-            "desc": "Group study of current topics related to organizational studies.",
-            "id": "15.329",
             "title": "Seminar in Organizational Studies"
         },
         {
@@ -15467,82 +14737,12 @@
         },
         {
             "desc": "",
-            "id": "15.S02",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S03",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S04",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S05",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S06",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S07",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S08",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
             "id": "15.S09",
             "title": "Special Seminar in Management"
         },
         {
             "desc": "",
-            "id": "15.S10-15.S12",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S13,\u00a015.S14",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S15,\u00a015.S16",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S17",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S18,\u00a015.S19",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "Group study of current topics related to management not otherwise included in curriculum. Coursework may continue into the following term.",
-            "id": "15.S20-15.S26",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
             "id": "15.S30-15.S33",
-            "title": "Special Distance Learning Seminar in Management"
-        },
-        {
-            "desc": "Group study through distance learning on current topics related to management.",
-            "id": "15.S35-15.S38",
             "title": "Special Distance Learning Seminar in Management"
         },
         {
@@ -15552,52 +14752,12 @@
         },
         {
             "desc": "",
-            "id": "15.S42-15.S47",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S50-15.S54",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S55-15.S59",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S60-15.S65",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
-            "id": "15.S66-15.S69",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "Group study of current topics related to management not otherwise included in curriculum.",
-            "id": "15.S70-15.S75",
-            "title": "Special Seminar in Management"
-        },
-        {
-            "desc": "",
             "id": "15.UR",
             "title": "Undergraduate Research in Management"
         },
         {
-            "desc": "Participation in the work of a research group which includes such activities as independent study of the literature, direct involvement in the group's research (commensurate with the student's skills and preparation), or project work under an individual faculty member possibly extending over more than one term. Admission by arrangement with individual faculty member. Requires written project report.",
-            "id": "15.URG",
-            "title": "Undergraduate Studies in Management"
-        },
-        {
             "desc": "",
             "id": "15.950",
-            "title": "Independent Study in Management"
-        },
-        {
-            "desc": "Advanced work, special investigation or application of a management topic, on an individual basis, under faculty supervision. May include readings, conferences, laboratory and fieldwork, and reports. Projects require prior approval, as well as a written proposal and a final report.",
-            "id": "15.951",
             "title": "Independent Study in Management"
         },
         {
@@ -15608,11 +14768,6 @@
         {
             "desc": "",
             "id": "15.960",
-            "title": "Independent Study in Management"
-        },
-        {
-            "desc": "Advanced work, special investigation or application of a management topic, on an individual basis, under faculty supervision. May include readings, conferences, laboratory and fieldwork, and reports. Projects require prior approval, as well as a written proposal and a final report.",
-            "id": "15.961",
             "title": "Independent Study in Management"
         },
         {
@@ -15703,11 +14858,6 @@
         {
             "desc": "",
             "id": "3.036,\u00a03.037",
-            "title": "Problems in Materials Science and Engineering"
-        },
-        {
-            "desc": "For undergraduates desiring to carry on projects of their own choosing, which may be experimental, theoretical, or of a design nature. Also for undergraduate studies arranged by students or staff, which may consist of seminars, assigned reading, or laboratory projects. See UROP Coordinator for registration procedures.",
-            "id": "3.038,\u00a03.039,\u00a03.04",
             "title": "Problems in Materials Science and Engineering"
         },
         {
@@ -16221,11 +15371,6 @@
             "title": "Undergraduate Research"
         },
         {
-            "desc": "Extended participation in work of a research group. Independent study of literature, direct involvement in group's research (commensurate with student skills), and project work under an individual faculty member. See UROP coordinator for registration procedures.",
-            "id": "3.URG",
-            "title": "Undergraduate Research"
-        },
-        {
             "desc": "Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.",
             "id": "18.01",
             "title": "Calculus"
@@ -16359,31 +15504,6 @@
             "desc": "",
             "id": "18.1001",
             "title": "Real Analysis"
-        },
-        {
-            "desc": "",
-            "id": "18.1002",
-            "title": "Real Analysis"
-        },
-        {
-            "desc": "",
-            "id": "18.100A",
-            "title": "Real Analysis"
-        },
-        {
-            "desc": "",
-            "id": "18.100B",
-            "title": "Real Analysis"
-        },
-        {
-            "desc": "Enrollment limited in Options P and Q.",
-            "id": "18.100P",
-            "title": "Real Analysis (New)"
-        },
-        {
-            "desc": "Four options offered, each covering fundamentals of mathematical analysis: convergence of sequences and series, continuity, differentiability, Riemann integral, sequences and series of functions, uniformity, interchange of limit operations. Each option shows the utility of abstract concepts and teaches understanding and construction of proofs. Option A: Proofs and definitions are less abstract. Gives applications where possible. Concerned primarily with the real line. Option B: More demanding; for students with more mathematical maturity. Places more emphasis on point-set topology and n-space. Option P: 15-unit (4-0-11) variant of Option A, with further instruction and practice in written communication. Option Q: 15-unit (4-0-11) variant of Option B, with further instruction and practice in written communication. Enrollment limited in Options P and Q.",
-            "id": "18.100Q",
-            "title": "Real Analysis (18.100C)"
         },
         {
             "desc": "Introduction to the theory of manifolds: vector fields and densities on manifolds, integral calculus in the manifold setting and the manifold version of the divergence theorem. 18.901 helpful but not required.",
@@ -17006,11 +16126,6 @@
             "title": "Geometry of Manifolds I"
         },
         {
-            "desc": "Differential forms, introduction to Lie groups, the DeRham theorem, Riemannian manifolds, curvature, the Hodge theory. 18.966 is a continuation of 18.965 and focuses more deeply on various aspects of the geometry of manifolds. Contents vary from year to year, and can range from Riemannian geometry (curvature, holonomy) to symplectic geometry, complex geometry and Hodge-Kahler theory, or smooth manifold topology. Prior exposure to calculus on manifolds, as in 18.952, is recommended.",
-            "id": "18.966",
-            "title": "Geometry of Manifolds II"
-        },
-        {
             "desc": "Content varies from year to year.",
             "id": "18.968",
             "title": "Topics in Geometry"
@@ -17043,11 +16158,6 @@
         {
             "desc": "",
             "id": "18.S096",
-            "title": "Special Subject in Mathematics"
-        },
-        {
-            "desc": "Opportunity for group study of subjects in mathematics not otherwise included in the curriculum. Offerings are initiated by members of the Mathematics faculty on an ad hoc basis, subject to departmental approval. 18.S097 is graded P/D/F.",
-            "id": "18.S097",
             "title": "Special Subject in Mathematics"
         },
         {
@@ -17231,11 +16341,6 @@
             "title": "Acoustics and Sensing"
         },
         {
-            "desc": "Introduces the fundamental concepts of acoustics and sensing with waves. Provides a unified theoretical approach to the physics of image formation through scattering and wave propagation in sensing. The linear and nonlinear acoustic wave equation, sources of sound, including musical instruments. Reflection, refraction, transmission and absorption. Bearing and range estimation by sensor array processing, beamforming, matched filtering, and focusing. Diffraction, bandwidth, ambient noise and reverberation limitations. Scattering from objects, surfaces and volumes by Green's Theorem. Forward scatter, shadows, Babinet's principle, extinction and attenuation. Ray tracing and waveguides in remote sensing. Applications to acoustic, radar, seismic, thermal and optical sensing and exploration. Students taking the graduate version of the subject complete additional assignments.",
-            "id": "2.066",
-            "title": "Acoustics and Sensing"
-        },
-        {
             "desc": "Fundamentals of solid mechanics applied to the mechanical behavior of engineering materials. Kinematics of deformation, stress, and balance principles. Isotropic linear elasticity and isotropic linear thermal elasticity. Variational and energy methods. Linear viscoelasticity. Small-strain elastic-plastic deformation. Mechanics of large deformation; nonlinear hyperelastic material behavior. Foundations and methods of deformable-solid mechanics, including relevant applications. Provides base for further study and specialization within solid mechanics, including continuum mechanics, computational mechanics (e.g., finite-element methods), plasticity, fracture mechanics, structural mechanics, and nonlinear behavior of materials.",
             "id": "2.071",
             "title": "Mechanics of Solid Materials"
@@ -17296,11 +16401,6 @@
             "title": "Finite Element Analysis of Solids and Fluids I"
         },
         {
-            "desc": "Finite element methods for analysis of steady-state and transient problems in solid, structural, fluid mechanics, and heat transfer. Presents finite element methods and solution procedures for linear and nonlinear analyses using largely physical arguments. Demonstrates finite element analyses. Homework involves use of an existing general purpose finite element analysis program. Includes modeling of problems and interpretation of numerical results. Students taking graduate version complete additional assignments.",
-            "id": "2.093",
-            "title": "Finite Element Analysis of Solids and Fluids I"
-        },
-        {
             "desc": "See description under subject 6.336[J].",
             "id": "2.096[J]",
             "title": "Introduction to Numerical Simulation"
@@ -17331,11 +16431,6 @@
             "title": "Introduction to Robotics"
         },
         {
-            "desc": "Presents the fundamentals of robot mechanisms, dynamics, and controls. Planar and spatial kinematics, differential motion, energy method for robot mechanics; mechanism design for manipulation and locomotion; multi-rigid-body dynamics; force and compliance control, balancing control, visual feedback, human-machine interface; actuators, sensors, wireless networking, and embedded software. Weekly laboratories include real-time control, vehicle navigation, arm and end-effector design, and balancing robot control. Group term project requires design and fabrication of robotic systems. Students taking graduate version complete additional assignments. Enrollment may be limited due to laboratory capacity.",
-            "id": "2.120",
-            "title": "Introduction to Robotics"
-        },
-        {
             "desc": "Provides training in advanced instrumentation and measurement techniques. Topics include system level design, fabrication and evaluation with emphasis on systems involving concepts and technology from mechanics, optics, electronics, chemistry and biology. Simulation, modeling and design software. Use of a wide range of instruments/techniques (e.g., scanning electron microscope, dynamic signal/system analyzer, impedance analyzer, laser interferometer) and fabrication/machining methods (e.g., laser micro-machining, stereo lithography, computer controlled turning and machining centers). Theory and practice of both linear and nonlinear system identification techniques. Lab sessions include instruction and group project work. No final exam.",
             "id": "2.131",
             "title": "Advanced Instrumentation and Measurement"
@@ -17343,11 +16438,6 @@
         {
             "desc": "Enrollment may be limited due to laboratory capacity; preference to Course 2 majors and minors.",
             "id": "2.14",
-            "title": "Analysis and Design of Feedback Control Systems"
-        },
-        {
-            "desc": "Develops the fundamentals of feedback control using linear transfer function system models. Analysis in time and frequency domains. Design in the s-plane (root locus) and in the frequency domain (loop shaping). Describing functions for stability of certain non-linear systems. Extension to state variable systems and multivariable control with observers. Discrete and digital hybrid systems and use of z-plane design. Extended design case studies and capstone group projects. Student taking graduate version complete additional assignments. Enrollment may be limited due to laboratory capacity.",
-            "id": "2.140",
             "title": "Analysis and Design of Feedback Control Systems"
         },
         {
@@ -17406,18 +16496,8 @@
             "title": "Biomolecular Feedback Systems"
         },
         {
-            "desc": "Comprehensive introduction to dynamics and control of biomolecular systems with emphasis on design/analysis techniques from control theory. Provides a review of biology concepts, regulation mechanisms, and models. Covers basic enabling technologies, engineering principles for designing biological functions, modular design techniques, and design limitations. Students taking graduate version complete additional assignments.",
-            "id": "2.180[J]",
-            "title": "Biomolecular Feedback Systems"
-        },
-        {
             "desc": "",
             "id": "2.183[J]",
-            "title": "Biomechanics and Neural Control of Movement"
-        },
-        {
-            "desc": "Quantitative knowledge of human movement behavior is important in a growing number of engineering applications (medical and rehabilitation technology, athletic and military equipment, human-computer interaction, vehicle performance, etc.). Presents a quantitative, model-based description of how biomechanical and neural factors interact in human sensory-motor behavior, focusing mainly on the upper limbs. Students survey recent literature on how motor behavior is controlled, comparing biological and robotic approaches to similar tasks. Topics may include a review of relevant neural, muscular and skeletal physiology, neural feedback and &quot;equilibrium-point&quot; theories, co-contraction strategies, impedance control, kinematic redundancy, optimization, intermittency, contact tasks and tool use. Students taking the graduate version will complete additional assignments.",
-            "id": "2.184",
             "title": "Biomechanics and Neural Control of Movement"
         },
         {
@@ -17476,18 +16556,8 @@
             "title": "Fundamentals of Nanoengineering"
         },
         {
-            "desc": "Presents the fundamentals of molecular modeling in engineering in the context of nanoscale mechanical engineering applications. Statistical mechanics and its connection to engineering thermodynamics. Molecular origin and limitations of macroscopic descriptions and constitutive relations for equilibrium and non-equilibrium behavior. Introduction to molecular simulation, solid-state physics and electrokinetic phenomena. Discusses molecular approaches to modern nanoscale engineering problems. Graduate students are required to complete additional assignments with stronger analytical content.",
-            "id": "2.370",
-            "title": "Fundamentals of Nanoengineering"
-        },
-        {
             "desc": "",
             "id": "2.372[J]",
-            "title": "Design and Fabrication of Microelectromechanical Systems"
-        },
-        {
-            "desc": "See description under subject 6.717[J].",
-            "id": "2.374[J]",
             "title": "Design and Fabrication of Microelectromechanical Systems"
         },
         {
@@ -17526,11 +16596,6 @@
             "title": "Nano-to-Macro Transport Processes"
         },
         {
-            "desc": "Parallel treatments of photons, electrons, phonons, and molecules as energy carriers; aiming at a fundamental understanding of descriptive tools for energy and heat transport processes, from nanoscale to macroscale. Topics include energy levels; statistical behavior and internal energy; energy transport in the forms of waves and particles; scattering and heat generation processes; Boltzmann equation and derivation of classical laws; and deviation from classical laws at nanoscale and their appropriate descriptions. Applications in nanotechnology and microtechnology. Students taking the graduate version complete additional assignments.",
-            "id": "2.570",
-            "title": "Nano-to-Macro Transport Processes"
-        },
-        {
             "desc": "See description under subject 22.313[J].",
             "id": "2.59[J]",
             "title": "Thermal Hydraulics in Power Technology"
@@ -17551,11 +16616,6 @@
             "title": "Marine Power and Propulsion"
         },
         {
-            "desc": "Selection and evaluation of commercial and naval ship power and propulsion systems. Analysis of propulsors, prime mover thermodynamic cycles, propeller-engine matching. Propeller selection, waterjet analysis, review of alternative propulsors; thermodynamic analyses of Rankine, Brayton, Diesel, and Combined cycles, reduction gears and integrated electric drive. Battery operated vehicles, fuel cells. Term project requires analysis of alternatives in propulsion plant design for given physical, performance, and economic constraints. Graduate students complete different assignments and exams.",
-            "id": "2.612",
-            "title": "Marine Power and Propulsion"
-        },
-        {
             "desc": "Fundamentals of thermodynamics, chemistry, and transport applied to energy systems. Analysis of energy conversion and storage in thermal, mechanical, chemical, and electrochemical processes in power and transportation systems, with emphasis on efficiency, performance and environmental impact. Applications to fuel reforming and alternative fuels, hydrogen, fuel cells and batteries, combustion, catalysis, combined and hybrid power cycles using fossil, nuclear and renewable resources. CO2 separation and capture. Biomass energy. Meets with 2.60[J] when offered concurrently; students taking the graduate version complete additional assignments.",
             "id": "2.62[J]",
             "title": "Fundamentals of Advanced Energy Conversion"
@@ -17568,11 +16628,6 @@
         {
             "desc": "",
             "id": "2.626",
-            "title": "Fundamentals of Photovoltaics"
-        },
-        {
-            "desc": "Fundamentals of photoelectric conversion: charge excitation, conduction, separation, and collection. Studies commercial and emerging photovoltaic technologies. Cross-cutting themes include conversion efficiencies, loss mechanisms, characterization, manufacturing, systems, reliability, life-cycle analysis, and risk analysis. Photovoltaic technology evolution in the context of markets, policies, society, and environment. Graduate students complete additional work.",
-            "id": "2.627",
             "title": "Fundamentals of Photovoltaics"
         },
         {
@@ -17716,11 +16771,6 @@
             "title": "Optics"
         },
         {
-            "desc": "Introduction to optical science with elementary engineering applications. Geometrical optics: ray-tracing, aberrations, lens design, apertures and stops, radiometry and photometry. Wave optics: basic electrodynamics, polarization, interference, wave-guiding, Fresnel and Fraunhofer diffraction, image formation, resolution, space-bandwidth product. Emphasis on analytical and numerical tools used in optical design. Graduate students are required to complete additional assignments with stronger analytical content, and an advanced design project.",
-            "id": "2.710",
-            "title": "Optics"
-        },
-        {
             "desc": "Introduces the theory and the design of optical microscopy and its applications in biology and medicine. The course starts from an overview of basic optical principles allowing an understanding of microscopic image formation and common contrast modalities such as dark field, phase, and DIC. Advanced microscopy imaging techniques such as total internal reflection, confocal, and multiphoton will also be discussed. Quantitative analysis of biochemical microenvironment using spectroscopic techniques based on fluorescence, second harmonic, Raman signals will be covered. We will also provide an overview of key image processing techniques for microscopic data.",
             "id": "2.715[J]",
             "title": "Optical Microscopy and Spectroscopy for Biology and Medicine"
@@ -17736,18 +16786,8 @@
             "title": "Photonic Materials"
         },
         {
-            "desc": "Provides a review of Maxwell's equations and the Helmholtz wave equation. Optical devices: waveguides and cavities, phase and group velocity, causality, and scattering. Light-matter interaction in bulk, surface, and subwavelength-structured matter. Effective media, dispersion relationships, wavefronts and rays, eikonal description of light propagation, phase singularities. Transformation optics, gradient effective media. Includes description of the experimental tools for realization and measurement of photonic materials and effects. Students taking graduate version complete additional assignments.",
-            "id": "2.719",
-            "title": "Photonic Materials"
-        },
-        {
             "desc": "Enrollment limited.",
             "id": "2.70",
-            "title": "FUNdaMENTALS of Precision Product Design"
-        },
-        {
-            "desc": "Examines design, selection, and combination of machine elements to produce a robust precision system. Introduces process, philosophy and physics-based principles of design to improve/enable renewable power generation, energy efficiency, and manufacturing productivity. Topics include linkages, power transmission, screws and gears, actuators, structures, joints, bearings, error apportionment, and error budgeting. Considers each topic with respect to its physics of operation, mechanics (strength, deformation, thermal effects) and accuracy, repeatability, and resolution. Includes guest lectures from practicing industry and academic leaders. Students design, build, and test a small benchtop precision machine, such as a heliostat for positioning solar PV panels or a two or three axis machine. Prior to each lecture, students review the pre-recorded detailed topic materials and then converge on what parts of the topic they want covered in extra depth in lecture. Students are assessed on their preparation for and participation in class sessions. Students taking graduate version complete additional assignments. Enrollment limited.",
-            "id": "2.77",
             "title": "FUNdaMENTALS of Precision Product Design"
         },
         {
@@ -17806,18 +16846,8 @@
             "title": "Medical Device Design"
         },
         {
-            "desc": "Application of mechanical and electrical engineering fundamentals to the design of medical devices that address clinical needs. Throughout the term, students work in small teams on a major project to translate a clinical challenge into a proof-of-concept prototype device. Students conduct user analysis, develop design specifications, and follow a structured process to cultivate creative designs and apply analytical techniques to optimize them. They deepen their understanding of art and intellectual property by researching prior representations. Develops practical skills in prototyping and testing as well as project management. Includes lectures, problem sets and exams that focus on design fundamentals. Instruction and practice in written and oral communication provided. Students taking graduate version complete additional assignments. Enrollment limited.",
-            "id": "2.750[J]",
-            "title": "Medical Device Design"
-        },
-        {
             "desc": "Enrollment limited; preference to Course 2 majors and minors.",
             "id": "2.752",
-            "title": "Development of Mechanical Products"
-        },
-        {
-            "desc": "Focuses on evolving a product from proof-of-concept to beta prototype: Includes team building, project planning, budgeting, resource planning; models for scaling, tolerancing and reliability, patents, business planning. Students/teams start with a proof-of-concept product they bring to class or select from projects provided by instructor. In lieu of taking 12 units of 2.THU, Course 2 majors taking 2.752 may write a bachelor's thesis that documents their contributions to the product developed in the team project. Students taking the graduate version complete additional assignments. Enrollment limited.",
-            "id": "2.753",
             "title": "Development of Mechanical Products"
         },
         {
@@ -17941,11 +16971,6 @@
             "title": "Introduction to Manufacturing Systems"
         },
         {
-            "desc": "Provides ways to analyze manufacturing systems in terms of material flow and storage, information flow, capacities, and times and durations of events. Fundamental topics include probability, inventory and queuing models, forecasting, optimization, process analysis, and linear and dynamic systems. Factory planning and scheduling topics include flow planning, bottleneck characterization, buffer and batch-size tactics, seasonal planning, and dynamic behavior of production systems. Graduate students are required to complete additional assignments.",
-            "id": "2.854",
-            "title": "Introduction to Manufacturing Systems"
-        },
-        {
             "desc": "Covers a broad range of topics in modern manufacturing, from models and structures for 21st-century operations, to case studies in leadership from the shop floor to the executive office. Also includes global perspectives from Asia, Europe and North America, with guest speakers from all three regions. Explores opportunities for new ventures in manufacturing. Intended primarily for Master of Engineering in Manufacturing students.",
             "id": "2.888",
             "title": "Professional Seminar in Global Manufacturing Innovation and Entrepreneurship"
@@ -17973,11 +16998,6 @@
         {
             "desc": "Restricted to juniors and seniors.",
             "id": "2.96",
-            "title": "Management in Engineering"
-        },
-        {
-            "desc": "Introduction and overview of engineering management. Financial principles, management of innovation, technical strategy and best management practices. Case study method of instruction emphasizes participation in class discussion. Focus is on the development of individual skills and management tools.",
-            "id": "2.961",
             "title": "Management in Engineering"
         },
         {
@@ -18027,77 +17047,7 @@
         },
         {
             "desc": "",
-            "id": "2.S971",
-            "title": "Undergraduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "",
-            "id": "2.S972",
-            "title": "Undergraduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "",
-            "id": "2.S973",
-            "title": "Undergraduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "Lecture, seminar or laboratory course consisting of material not offered in regularly scheduled subjects. Can be repeated for credit only for completely different subject matter. 2.S972-2.S974 are graded P/D/F.",
-            "id": "2.S974",
-            "title": "Undergraduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "",
             "id": "2.S980",
-            "title": "Graduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "",
-            "id": "2.S981",
-            "title": "Graduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "",
-            "id": "2.S982",
-            "title": "Graduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "",
-            "id": "2.S992",
-            "title": "Undergraduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "",
-            "id": "2.S993",
-            "title": "Undergraduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "",
-            "id": "2.S994",
-            "title": "Undergraduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "",
-            "id": "2.S995",
-            "title": "Undergraduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "",
-            "id": "2.S996",
-            "title": "Graduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "",
-            "id": "2.S997",
-            "title": "Graduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "",
-            "id": "2.S998",
-            "title": "Graduate Special Subject in Mechanical Engineering"
-        },
-        {
-            "desc": "Advanced lecture, seminar, or laboratory consisting of material not offered in regularly scheduled subjects. Can be repeated for credit only for completely different subject matter. 2.S980 and 2.S996 are graded P/D/F.",
-            "id": "2.S999",
             "title": "Graduate Special Subject in Mechanical Engineering"
         },
         {
@@ -18141,11 +17091,6 @@
             "title": "Undergraduate Research in Mechanical Engineering"
         },
         {
-            "desc": "Individual study, research, or laboratory investigations under faculty supervision, including individual participation in an ongoing research project. See projects listing in Undergraduate Office, 1-110, for guidance.",
-            "id": "2.URG",
-            "title": "Undergraduate Research in Mechanical Engineering"
-        },
-        {
             "desc": "History of modern art and design from the perspective of the technologist. Exploration of visual analysis, typography, and technologies for audio/visual expression. Enrollment limited; preference to students in MAS freshman program.",
             "id": "MAS.110",
             "title": "Fundamentals of Computational Media Design"
@@ -18171,18 +17116,8 @@
             "title": "Independent Study in Media Arts and Sciences"
         },
         {
-            "desc": "Special projects on group or individual basis. Registration subject to prior arrangement of subject matter and supervision by staff.",
-            "id": "MAS.491",
-            "title": "Independent Study in Media Arts and Sciences"
-        },
-        {
             "desc": "",
             "id": "MAS.UR",
-            "title": "Undergraduate Research in Media Arts and Sciences"
-        },
-        {
-            "desc": "Individual or group study, research, or laboratory investigations under faculty supervision, including individual participation in an ongoing research project. See UROP coordinator for further information.",
-            "id": "MAS.URG",
             "title": "Undergraduate Research in Media Arts and Sciences"
         },
         {
@@ -18901,11 +17836,6 @@
             "title": "Directing"
         },
         {
-            "desc": "Explores several models of directing, each with its unique structures, philosophy, terminology, and techniques. Exploration is intended to lead to the development of an individual voice for each student and clarity in his/her directorial point of view. Class sessions concentrate on how a point of view is arrived at through analysis of material and the way the results are rendered with the basic tools of theater. All points of view are honored as long as they can be actively supported by the work. Students taking graduate version complete additional assignments.",
-            "id": "21M.791",
-            "title": "Directing"
-        },
-        {
             "desc": "Investigates repertoire from international creators of theater, opera, performance art, and dance. Explores diverse storytelling and directorial points of view, examining the contexts which inform approaches to performance making. Discusses specific cultural and political shifts that have inspired the work of international artists, such as Marina Abramovic (Serbia), Pina Bausch (Germany), Nora Chipaumire (Zimbabwe), Ping Chong (US/Canada), Peter Sellars (US), and The Yes Men (US). Weekly readings, screenings and guest artists provide the foundation for an understanding of the role of director as an artist who finds inspiration in the contradictions of the world. Students taking graduate version complete additional assignments.",
             "id": "21M.800",
             "title": "All the World's a Stage: Socio-Political Perspectives in Global Performance"
@@ -18994,11 +17924,6 @@
             "desc": "",
             "id": "21M.UR",
             "title": "Undergraduate Research in Music and Theater Arts"
-        },
-        {
-            "desc": "Individual participation in an ongoing music research project. For students in the Undergraduate Research Opportunities Progam.",
-            "id": "21M.URG",
-            "title": "Undergraduate Research in Music"
         },
         {
             "desc": "Leadership seminar addresses professional issues of military leadership, ethics, foreign policy, internal affairs and naval warfare doctrine. Subject matter centers on preparation for commissioned service in the US Naval Forces by examining the role of the junior officer in the employment of naval power. Mostly student originated, the periods include panel discussions, practical applications, guest lecturers from academia, and speakers currently serving in deployed naval forces.",
@@ -19178,11 +18103,6 @@
         {
             "desc": "",
             "id": "22.UR",
-            "title": "Undergraduate Research Opportunities Program"
-        },
-        {
-            "desc": "The Undergraduate Research Opportunities Program is an excellent way for undergraduate students to become familiar with the department of Nuclear Science and Engineering. Student research as a UROP project has been conducted in areas of fission reactor studies, utilization of fusion devices, applied radiation physics research, and biomedical applications. Projects include the study of engineering aspects for fusion and fission energy sources, and utilization of radiations.",
-            "id": "22.URG",
             "title": "Undergraduate Research Opportunities Program"
         },
         {
@@ -19403,11 +18323,6 @@
         {
             "desc": "",
             "id": "22.911",
-            "title": "Seminar in Nuclear Science and Engineering"
-        },
-        {
-            "desc": "Restricted to graduate students engaged in doctoral thesis research.",
-            "id": "22.912",
             "title": "Seminar in Nuclear Science and Engineering"
         },
         {
@@ -19681,11 +18596,6 @@
             "title": "Quantum Theory I"
         },
         {
-            "desc": "A two-term subject on quantum theory, stressing principles: uncertainty relation, observables, eigenstates, eigenvalues, probabilities of the results of measurement, transformation theory, equations of motion, and constants of motion. Symmetry in quantum mechanics, representations of symmetry groups. Variational and perturbation approximations. Systems of identical particles and applications. Time-dependent perturbation theory. Scattering theory: phase shifts, Born approximation. The quantum theory of radiation. Second quantization and many-body theory. Relativistic quantum mechanics of one electron.",
-            "id": "8.322",
-            "title": "Quantum Theory II"
-        },
-        {
             "desc": "A one-term self-contained subject in quantum field theory. Concepts and basic techniques are developed through applications in elementary particle physics, and condensed matter physics. Topics: classical field theory, symmetries, and Noether's theorem. Quantization of scalar fields, spin fields, and Gauge bosons. Feynman graphs, analytic properties of amplitudes and unitarity of the S-matrix. Calculations in quantum electrodynamics (QED). Introduction to renormalization.",
             "id": "8.323",
             "title": "Relativistic Quantum Field Theory I"
@@ -19704,11 +18614,6 @@
             "desc": "",
             "id": "8.333",
             "title": "Statistical Mechanics I"
-        },
-        {
-            "desc": "A two-term subject on statistical mechanics. Basic principles are examined in 8.333: the laws of thermodynamics and the concepts of temperature, work, heat, and entropy. Postulates of classical statistical mechanics, microcanonical, canonical, and grand canonical distributions; applications to lattice vibrations, ideal gas, photon gas. Quantum statistical mechanics; Fermi and Bose systems. Interacting systems: cluster expansions, van der Waal's gas, and mean-field theory. Topics from modern statistical mechanics are explored in 8.334: the hydrodynamic limit and classical field theories. Phase transitions and broken symmetries: universality, correlation functions, and scaling theory. The renormalization approach to collective phenomena. Dynamic critical behavior. Random systems.",
-            "id": "8.334",
-            "title": "Statistical Mechanics II"
         },
         {
             "desc": "See description under subject 12.620[J].",
@@ -19738,11 +18643,6 @@
         {
             "desc": "",
             "id": "8.391",
-            "title": "Pre-Thesis Research"
-        },
-        {
-            "desc": "Advanced problems in any area of experimental or theoretical physics, with assigned reading and consultations.",
-            "id": "8.392",
             "title": "Pre-Thesis Research"
         },
         {
@@ -19846,11 +18746,6 @@
             "title": "Physics of High-Energy Plasmas I"
         },
         {
-            "desc": "Basic concepts of plasmas, with temperatures of thermonuclear interest, relevant to fusion research and astrophysics. Microscopic transport processes due to interparticle collisions and collective modes (e.g., microinstabilities). Relevant macroscopic transport coefficients (electrical resistivity, thermal conductivities, particle &quot;diffusion&quot;). Runaway and slide-away regimes. Magnetic reconnection processes and their relevance to experimental observations. Radiation emission from inhomogeneous plasmas. Conditions for thermonuclear burning and ignition (D-T and &quot;advanced&quot; fusion reactions, plasmas with polarized nuclei). Role of &quot;impurity&quot; nuclei. &quot;Finite-\u03b2&quot; (pressure) regimes and ballooning modes. Convective modes in configuration and velocity space. Trapped particle regimes. Nonlinear and explosive instabilities. Interaction of positive and negative energy modes. Each subject can be taken independently.",
-            "id": "8.642",
-            "title": "Physics of High-Energy Plasmas II"
-        },
-        {
             "desc": "Presentation of topics of current interest, with content varying from year to year. Subject not routinely offered; given when interest is indicated.",
             "id": "8.681,\u00a08.682",
             "title": "Selected Topics in Fluid and Plasma Physics"
@@ -19913,11 +18808,6 @@
         {
             "desc": "",
             "id": "8.871",
-            "title": "Selected Topics in Theoretical Particle Physics"
-        },
-        {
-            "desc": "Presents topics of current interest in theoretical particle physics, with content varying from year to year. Subject not routinely offered; given when sufficient interest is indicated.",
-            "id": "8.872",
             "title": "Selected Topics in Theoretical Particle Physics"
         },
         {
@@ -20011,11 +18901,6 @@
             "title": "Feminist Thought"
         },
         {
-            "desc": "Analyzes theories of gender and politics, especially ideologies of gender and their construction; definitions of public and private spheres; gender issues in citizenship, the development of the welfare state, experiences of war and revolution, class formation, and the politics of sexuality. Graduate students are expected to pursue the subject in greater depth through reading and individual research.",
-            "id": "17.007[J]",
-            "title": "Feminist Thought"
-        },
-        {
             "desc": "See description under subject 24.04[J].",
             "id": "17.01[J]",
             "title": "Justice"
@@ -20096,18 +18981,8 @@
             "title": "Sustainability: Political Economy, Science, and Policy"
         },
         {
-            "desc": "Examines alternative conceptions and theoretical underpinnings of sustainable development. Focuses on the sustainability problems of industrial countries, and of developing states and economies in transition. Explores the sociology of knowledge regarding sustainability, the economic and technological dimensions, and institutional imperatives. Considers implications for political constitution of economic performance. 17.181 fulfills undergraduate public policy requirement in the major and minor. Graduate students are expected to explore the subject in greater depth through reading and individual research.",
-            "id": "17.182",
-            "title": "Sustainability: Political Economy, Science, and Policy"
-        },
-        {
             "desc": "",
             "id": "17.195",
-            "title": "Globalization"
-        },
-        {
-            "desc": "Analyzes changes in the international economy and their effects in the politics, economy, and society of advanced and emerging countries. Topics include the independence of national governments; wage inequality; unemployment; industrial production outside national borders and its consequences for innovation, efficiency, and jobs; fairness in trade; and mass culture versus local values. 17.195 fulfills undergraduate public policy requirement in the major and minor. Students taking graduate version are expected to complete additional assignments",
-            "id": "17.196",
             "title": "Globalization"
         },
         {
@@ -20151,18 +19026,8 @@
             "title": "Congress and the American Political System I"
         },
         {
-            "desc": "Focuses on both the internal processes of the House and Senate and on the place of Congress in the American political system. Attention to committee behavior, leadership patterns, and informal organization. Considers relations between Congress and other branches of government, as well as relations between the two houses of Congress itself. Students taking the graduate version are expected to pursue the subject in greater depth through reading and individual research.",
-            "id": "17.252",
-            "title": "Congress and the American Political System I"
-        },
-        {
             "desc": "",
             "id": "17.261",
-            "title": "Congress and the American Political System II"
-        },
-        {
-            "desc": "Analyzes the development of the US Congress by focusing on the competing theoretical lenses through which legislatures have been studied. Particularly compares sociological and economic models of legislative behavior, applying those models to floor decision-making, committee behavior, political parties, relations with other branches of the Federal government, and elections. Students taking the graduate version are expected to pursue the subject in greater depth through reading and individual research.",
-            "id": "17.262",
             "title": "Congress and the American Political System II"
         },
         {
@@ -20296,11 +19161,6 @@
             "title": "Chinese Foreign Policy"
         },
         {
-            "desc": "Explores the leading theoretical and methodological approaches to studying China's interaction with the international system since 1949. Readings include books and articles that integrate the study of China's foreign policy with the field of international relations. Requires basic understanding of Chinese politics or international relations theory. Meets with 17.407 when offered concurrently.",
-            "id": "17.408",
-            "title": "Chinese Foreign Policy"
-        },
-        {
             "desc": "Provides an introduction to the causes of international conflict and cooperation. Topics include war initiation, crisis bargaining, international terrorism, nuclear strategy, interstate economic relations, economic growth, international law, human rights, and environmental politics.",
             "id": "17.41",
             "title": "Introduction to International Relations"
@@ -20308,11 +19168,6 @@
         {
             "desc": "",
             "id": "17.410",
-            "title": "Globalization, Migration, and International Relations"
-        },
-        {
-            "desc": "Tracing the evolution of international interactions, subject examines the dimensions of globalization in terms of scale and scope. Includes international environmental issues, impacts and expansion of human activites, and the potential implications for global and national policy. Linkages among individuals, nation-states, transnational organizations and firms, international systems, and the global environment. Special focus on models of globalization, challenges of sustainable development, and on evolving types. Institutional responses to globalization and global change. 17.411 fulfills undergraduate public policy requirement in the major and minor. Students taking the graduate version are expected to explore the subject in greater depth through reading and individual research.",
-            "id": "17.411",
             "title": "Globalization, Migration, and International Relations"
         },
         {
@@ -20361,11 +19216,6 @@
             "title": "International Relations of East Asia"
         },
         {
-            "desc": "Introduces and analyzes the international relations of East Asia. Examines the sources of conflict and cooperation during and after the Cold War, assessing competing explanations for key events in East Asia's international relations. Readings drawn from international relations theory, political science and history. Students taking graduate version are expected to pursue the subject in greater depth through reading and individual research.",
-            "id": "17.434",
-            "title": "International Relations of East Asia"
-        },
-        {
             "desc": "Examines why territorial conflicts arise in the first place, why some of these conflicts escalate to high levels of violence and why other territorial disputes reach settlement, thereby reducing a likely source of violence between states. Readings draw upon political geography and history as well as qualitative and quantitative approaches to political science.",
             "id": "17.436",
             "title": "Territorial Conflict"
@@ -20376,18 +19226,8 @@
             "title": "International Relations Theory in the Cyber Age"
         },
         {
-            "desc": "Examines cyber dynamics and processes in international relations from different theoretical perspectives. Considers alternative theoretical and empirical frameworks consistent with characteristic features of cyberspace and emergent transformations at all levels of international interaction. Theories examined include realism and neorealism, institutionalism and liberalism, constructivism, and systems theory and lateral pressure. Highlights relevant features and proposes customized international relations theory for the cyber age. Students taking the graduate version are expected to pursue the subject in greater depth through reading and individual research.",
-            "id": "17.446",
-            "title": "International Relations Theory in the Cyber Age"
-        },
-        {
             "desc": "",
             "id": "17.447",
-            "title": "Cybersecurity"
-        },
-        {
-            "desc": "Focuses on the complexity of cybersecurity in a changing world. Examines national and international aspects of overall cyber ecology. Explores sources and consequences of cyber threats and different types of damages. Considers impacts for and of various aspects of cybersecurity in diverse geostrategic, political, business and economic contexts. Addresses national and international policy responses as well as formal and informal strategies and mechanisms for responding to cyber insecurity and enhancing conditions of cybersecurity. Students taking graduate version expected to pursue subject in greater depth through reading and individual research.",
-            "id": "17.448",
             "title": "Cybersecurity"
         },
         {
@@ -20421,11 +19261,6 @@
             "title": "US Military Power"
         },
         {
-            "desc": "Examines the evolving roles and missions of US General Purpose Forces within the context of modern technological capabilities and Grand Strategy, which is a conceptual system of interconnected political and military means and ends. Topics include US Grand Strategies; the organization of the US military; the defense budget; and the capabilities and limitations of naval, air, and ground forces. Also examines the utility of these forces for power projection and the problems of escalation. Analyzes military history and simple models of warfare to explore how variations in technology and battlefield conditions can drastically alter effectiveness of conventional forces. 17.483 fulfills undergraduate public policy requirement in the major and minor. Students taking the graduate version are expected to pursue the subject in greater depth through reading and individual research.",
-            "id": "17.483",
-            "title": "US Military Power"
-        },
-        {
             "desc": "A comparative study of the grand strategies and military doctrines of the great powers in Europe (Britain, France, Germany, and Russia) from the late 19th to the mid-20th century. Examines strategic developments in the years preceding and during World Wars I and II. What factors have exerted the greatest influence on national strategies? How may the quality of a grand strategy be judged? Exploration of comparative case study methodology also plays a central role. What consequences seem to follow from grand strategies of different types? Open to undergraduates with permission of instructor.",
             "id": "17.484",
             "title": "Comparative Grand Strategy and Military Doctrine"
@@ -20444,11 +19279,6 @@
             "desc": "",
             "id": "17.504",
             "title": "Ethnic Politics I"
-        },
-        {
-            "desc": "Introduces students to the classic works on ethnic politics, familiarizes them with new research and methodological innovations in the study of ethnic politics, and helps them design and execute original research projects related to ethnic politics. Readings drawn from across disciplines, including political science, anthropology, sociology, and economics. Students read across the four subfields within political science. Graduate students specializing in any subfield are encouraged to take this subject, regardless of their previous empirical or theoretical background. Designed as a year-long research workshop, but may also be taken in either term.",
-            "id": "17.506",
-            "title": "Ethnic Politics II"
         },
         {
             "desc": "Explores why people join grassroots political organizations and social movements. Asks what accounts for the ultimate success or failure of these organizations and examines how social movements have altered political parties, political institutions, and social relations. Critically considers a range of theoretical treatments and several movements, including the US civil rights, poor peoples', pro-life/pro-choice and gay/lesbian movements.",
@@ -20493,11 +19323,6 @@
         {
             "desc": "",
             "id": "17.537",
-            "title": "Politics and Policy in Contemporary Japan"
-        },
-        {
-            "desc": "Analyzes contemporary Japanese politics, focusing primarily upon the post-World War II period. Includes examination of the dominant approaches to Japanese politics and society, the structure of the party system, the role of political opposition, the policy process, foreign affairs, and interest groups. Attention to defense, foreign, industrial, social, energy, and technology policy processes. Graduate students are expected to pursue the subject in greater depth through reading and class presentations. Assignments differ.",
-            "id": "17.538",
             "title": "Politics and Policy in Contemporary Japan"
         },
         {
@@ -20611,11 +19436,6 @@
             "title": "Game Theory and Political Theory"
         },
         {
-            "desc": "Introduces students to the rudiments of game theory within political science. Provides students with the ability to solve simple games. Readings draw from basic texts on game theoretic modeling and applied articles in American politics, international relations, and comparative politics. Students taking the graduate version evaluate applied theory articles in the major journals.",
-            "id": "17.811",
-            "title": "Game Theory and Political Theory"
-        },
-        {
             "desc": "Reviews recent quantitative empirical studies on important, substantive questions in political economy. Designed to increase students' understanding of the core research designs and measurement strategies employed in the empirical analysis of political institutions and political behavior. Topics include the political and economic consequences of direct democracy, reservations for political minorities, corruption, political effects of the media, and politics in authoritarian regimes.",
             "id": "17.830",
             "title": "Empirical Methods in Political Economy"
@@ -20641,18 +19461,8 @@
             "title": "Undergraduate Research"
         },
         {
-            "desc": "Research opportunities in political science in theoretical and applied research. For further information, contact the departmental coordinator.",
-            "id": "17.URG",
-            "title": "Undergraduate Research"
-        },
-        {
             "desc": "",
             "id": "17.901",
-            "title": "Political Science Internship and Research"
-        },
-        {
-            "desc": "Independent research enabling students to do work in an agency, state, or local government, or other public organization. The academic component involves close contact between the student and a faculty advisor and written work.",
-            "id": "17.902",
             "title": "Political Science Internship and Research"
         },
         {
@@ -21001,11 +19811,6 @@
             "title": "Undergraduate Research"
         },
         {
-            "desc": "Undergraduate research opportunities in the STS Program.",
-            "id": "STS.URG",
-            "title": "Undergraduate Research"
-        },
-        {
             "desc": "Definition and early-stage work on thesis project leading to STS.THU. Taken during first term of student's two-term commitment to thesis project. Student works closely with STS faculty tutor. Required of all candidates for an STS degree.",
             "id": "STS.THT",
             "title": "Undergraduate Thesis Tutorial"
@@ -21213,11 +20018,6 @@
         {
             "desc": "",
             "id": "SP.110",
-            "title": "Program XL: You Can Be a Success at MIT"
-        },
-        {
-            "desc": "An academic enrichment program for first-year students, XL utilizes the innovative and effective small-group learning concept to enhance students' academic performance in calculus and science. Students meet in study groups of five to six participants with facilitators trained in effective classroom techniques and concept focus. The study groups help students to reinforce concepts learned in the regular curriculum, and help them to gain mastery of concepts and problems that are often more challenging than those dealt with during lecture. The small study group format emphasizes the full participation of each student with the facilitator acting as a guide. The regularity of weekly meetings enhances the students' understanding of MIT's academic expectations. After the initial meetings, students are encouraged to take more responsibility and to lead the group in problem-solving sessions, which helps to maximize their own learning. Each study group meets for a minimum of three hours each week. The meeting time is set by the XL facilitator based on students' schedules.",
-            "id": "SP.120",
             "title": "Program XL: You Can Be a Success at MIT"
         },
         {
@@ -21586,11 +20386,6 @@
             "title": "Undergraduate Research"
         },
         {
-            "desc": "Undergraduate research opportunities in Urban Studies and Planning. For further information, consult the Departmental Coordinators.",
-            "id": "11.URG",
-            "title": "Undergraduate Research"
-        },
-        {
             "desc": "Designed for students writing a thesis in Urban Studies and Planning or Architecture. Develop research topics, review relevant research and scholarship, frame research questions and arguments, choose an appropriate methodology for analysis, and draft introductory and methodology sections.",
             "id": "11.THT[J]",
             "title": "Thesis Research Design Seminar"
@@ -21618,11 +20413,6 @@
         {
             "desc": "",
             "id": "11.S195",
-            "title": "Special Subject: Urban Studies and Planning"
-        },
-        {
-            "desc": "For undergraduates wishing to pursue further study or fieldwork in specialized areas of urban studies or city and regional planning not covered in regular subjects of instruction. 11.S198 is graded P/D/F.",
-            "id": "11.S196-11.S199",
             "title": "Special Subject: Urban Studies and Planning"
         },
         {
@@ -22291,18 +21081,8 @@
             "title": "Independent Study: Urban Studies and Planning"
         },
         {
-            "desc": "Opportunity for independent study under regular supervision by a faculty member.",
-            "id": "11.902",
-            "title": "Independent Study: Urban Studies and Planning"
-        },
-        {
             "desc": "",
             "id": "11.903",
-            "title": "Supervised Readings in Urban Studies"
-        },
-        {
-            "desc": "Reading and discussion of topics in urban studies and planning.",
-            "id": "11.904",
             "title": "Supervised Readings in Urban Studies"
         },
         {
@@ -22311,18 +21091,8 @@
             "title": "Research Seminar in Urban Studies and Planning"
         },
         {
-            "desc": "Special research issues in urban planning.",
-            "id": "11.906",
-            "title": "Research Seminar in Urban Studies and Planning"
-        },
-        {
             "desc": "",
             "id": "11.907",
-            "title": "Urban Fieldwork"
-        },
-        {
-            "desc": "Practical application of planning techniques to towns, cities, and regions, including problems of replanning, redevelopment, and renewal of existing communities. Includes internships, under staff supervision, in municipal and state agencies and departments.",
-            "id": "11.908",
             "title": "Urban Fieldwork"
         },
         {
@@ -22346,11 +21116,6 @@
             "title": "Independent Study: Real Estate"
         },
         {
-            "desc": "Opportunity for independent study under regular supervision by a faculty member.",
-            "id": "11.961",
-            "title": "Independent Study: Real Estate"
-        },
-        {
             "desc": "Practical application of real estate techniques in the field.",
             "id": "11.962",
             "title": "Fieldwork: Real Estate"
@@ -22361,11 +21126,6 @@
             "title": "Independent Study: Real Estate"
         },
         {
-            "desc": "Opportunity for independent study under regular supervision by a faculty member.",
-            "id": "11.964",
-            "title": "Independent Study: Real Estate"
-        },
-        {
             "desc": "Practical application of planning techniques over the summer with prior arrangement.",
             "id": "11.985",
             "title": "Summer Field Work"
@@ -22373,16 +21133,6 @@
         {
             "desc": "",
             "id": "11.S938",
-            "title": "Special Subject: Urban Studies and Planning"
-        },
-        {
-            "desc": "",
-            "id": "11.S939",
-            "title": "Special Subject: Urban Studies and Planning"
-        },
-        {
-            "desc": "For graduate students wishing to pursue further study in advanced areas of urban studies and city and regional planning not covered in regular subjects of instruction.",
-            "id": "11.S940-11.S944",
             "title": "Special Subject: Urban Studies and Planning"
         },
         {
@@ -22401,34 +21151,9 @@
             "title": "Special Seminar: Urban Studies and Planning"
         },
         {
-            "desc": "For graduate students wishing to pursue further study in advanced areas of urban studies and city and regional planning not covered in regular subjects of instruction.",
-            "id": "11.S959",
-            "title": "Special Seminar: Urban Studies and Planning"
-        },
-        {
             "desc": "",
             "id": "11.S965",
             "title": "Special Subject: Real Estate"
-        },
-        {
-            "desc": "",
-            "id": "11.S966,\u00a011.S967",
-            "title": "Special Subject: Real Estate"
-        },
-        {
-            "desc": "",
-            "id": "11.S968",
-            "title": "Special Seminar: Real Estate"
-        },
-        {
-            "desc": "",
-            "id": "11.S969",
-            "title": "Special Seminar: Real Estate"
-        },
-        {
-            "desc": "Small group study of advanced subjects under staff supervision. For graduate students wishing to pursue further study in advanced areas of real estate not covered in regular subjects of instruction.",
-            "id": "11.S970",
-            "title": "Special Seminar: Real Estate"
         },
         {
             "desc": "Program of research and writing of thesis; to be arranged by the student with supervising committee.",
@@ -22633,11 +21358,6 @@
         {
             "desc": "",
             "id": "WGS.UR",
-            "title": "Undergraduate Research in Women's and Gender Studies"
-        },
-        {
-            "desc": "Undergraduate research opportunities in the Women's and Gender Studies Program.",
-            "id": "WGS.URG",
             "title": "Undergraduate Research in Women's and Gender Studies"
         },
         {

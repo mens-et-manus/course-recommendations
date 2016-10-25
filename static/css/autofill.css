@@ -9,11 +9,13 @@
 
 .autofill-possible{
 	position: absolute;
-	left: 0;
-	top: 30px;
+	left: 37px;
+    top: 37px;
 	z-index: 10;
 	background-color: white;
 	border-radius: 2px;
+	max-height: 175px;
+	overflow-y: auto;
 }
 
 .autofill-possible p{

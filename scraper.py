@@ -7,8 +7,17 @@ import json
 all_subjs = urllib.request.urlopen("http://catalog.mit.edu/subjects/").read()
 
 pattern = re.compile(b'<a href="\/subjects\/(.*?)\/">(.*?)<\/a>', re.IGNORECASE)
-pattern2 = re.compile(b'<div class="courseblock">(.*?)<strong>(.*?)<\/strong>(.*?)<p class="courseblockdesc">(.*?)<\/p>(.*?)<\/div>', re.S)
+
+pattern2 = re.compile(b'<div class="courseblock">(.*?)<strong>(.*?)<\/strong>(.*?)<p class="courseblockdesc">(.*?)<\/p>(.*?)<p class="courseblockinstructors seemore">(.*?)<\/p>(.*?)<\/div>', re.S)
 pattern3 = re.compile(b'<(.*?)>', re.S)
+pattern4 = re.compile(b'<span><i>(.*?)</i></span>', re.S)
+
+
+getBlock = re.compile(b'<div class="coureseblock">(.*?)<\/div>', re.S)
+getTitle = re.compile(b'<span><strong>(.*?)<\/strong><\/span>', re.S)
+getDesc = re.compile(b'<p class="courseblockdesc">(.*?)<\/p>', re.S)
+getTeacher = re.compile(b'<p class="courseblockinstructors seemore">(.*?)<\/p>', re.S)
+
 match = pattern.findall(all_subjs)
 
 subj_info = []
@@ -35,7 +44,6 @@ for i in range(0,len(subj_info)): # len(subj_info)
 	"""
 	for j in range(0,len(match)): # len(match)
 		block = match[j]
-
 		title_and_id = block[1].decode("utf-8").split(" ")
 		id = title_and_id[0]
 		title = " ".join(title_and_id[1::])
@@ -49,10 +57,13 @@ for i in range(0,len(subj_info)): # len(subj_info)
 			"desc": desc
 		})
 
+
+		
+
 save_data = {
 	"courses": subj_data
 }
 
 # save path is storage/classes.json
-with open('storage/classes.json', 'w') as outfile:
+with open('static/storage/classes.json', 'w') as outfile:
     json.dump(save_data, outfile, indent=4, sort_keys=True)
