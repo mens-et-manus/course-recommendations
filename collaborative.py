@@ -3,8 +3,9 @@
 import numpy as np
 import pandas as pd
 from sklearn.metrics import mean_squared_error
-import redis
-r = redis.StrictRedis(host='localhost', port=6379, db=0)
+from pymongo import MongoClient
+client = MongoClient()
+db = client.courses
 
 # *****************
 # set up data thing
@@ -16,9 +17,9 @@ n_users = 0   # length of the array userIds
 n_items = 0   # length of the array courses
 train = np.zeros((n_users, n_items))  # initializes the matrix (empty for now)
 
-def predictData(newData):
+def predictData(newData,id,courseList):
     newData = newData.strip()           # removes whitespace
-    index = addRowToKnown(newData)      # add to the matrix, returns the index (row) where the data will be once predicted
+    index = addRowToKnown(id,courseList)      # add to the matrix, returns the index (row) where the data will be once predicted
     rowCopy = train[index]
 
     user_similarity = fast_similarity(train, kind='item') # finds the similarity coefficient (math stuff)
@@ -80,18 +81,17 @@ def predict_topk_nobias(ratings, similarity, kind='user', k=40):
     return pred
 
 
-def addRowToKnown(row):
+def addRowToKnown(id,courseList):
     global n_users
     global n_items
     global train
-
-    row = row.split(",")
-    _u = row[0].strip()
+    
+    _u = id
     userIds.append(_u)
     userIndex = len(userIds)-1
     n_users = n_users+1
     # add a new row of zeroes with the width of the rest
-    _d = row[1::]
+    _d = courseList
     # go through courses
     for course_rating in _d:
         info = course_rating.split(" ")
@@ -117,22 +117,46 @@ def addRowToKnown(row):
     train = new_ratings
     return userIndex
 
+def addToDB(id,courseList):
+    newData = {
+        "id": id,
+        "courses": courseList
+    }
+    db.collab.insert_one(newData)
+
+
+def predictCollab(id,courseList):
+    text = id + "," + ",".join(courseList)
+    result = predictData(text,id,courseList)
+    return result
 
 #
 # INITIALIZE
 #
 
-user_ids = r.get("user-ids")
-if user_ids == None:
-    user_ids = []
-    r.set("user-ids",[])
-print(user_ids)
+entries = db.collab.find()
+for entry in entries:
+    id = entry["id"]
+    courseList = entry["courses"]
+    addRowToKnown(id,courseList)
 
-"""
+
+#
+#   LOAD SOME SAMPLE DATA
+#
+
+'''
 f = open('collaborative_test.txt', 'r')
 for line in f:
-    addRowToKnown(line.strip())
+    line = line.split(",")
+    id = line[0]
+    courseList = line[1::]
+    addToDB(id,courseList)
+'''
 
+
+
+"""
 newKnownData = "g,18.02 2,8.01 4,3.091 3"
 result = predictData(newKnownData)
 print(result)

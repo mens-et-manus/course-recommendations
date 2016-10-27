@@ -24,3 +24,10 @@ Gets similar courses based on the course descriptions. Uses language processing 
 + set up databases and stuff
 + add collaborative-based recommendations
 	+ get sample data
+
+
+## NOTES
+'''
+"D:\Program Files\MongoDB\Server\3.2\bin\mongod.exe" --dbpath data/db
+"D:\Program Files\MongoDB\Server\3.2\bin\mongo.exe"
+'''

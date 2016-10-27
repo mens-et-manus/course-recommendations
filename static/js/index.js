@@ -1,21 +1,45 @@
-function sendPredictContent(courses, ratings,callback){
+function sendPredictAll(courses, ratings, callback){
+	var id = guid()
+	var courseList = []
+	for(var i = 0; i < ratings.length; i++){
+		courseList.push([courses[i],ratings[i]])
+	}
 	$.ajax({
-	  method: "POST",
-	  url: "/predict/content",
-	  contentType: 'application/json',
-	  data: JSON.stringify({ courses: courses, ratings: ratings}),
-	  dataType: 'json',
+		method: "POST",
+		url: "/predict/all",
+		contentType: "application/json",
+		data: JSON.stringify({id: id, courseList: courseList, courses: courses, ratings: ratings}),
+		dataType: "json"
 	})
-	.done(function(data) {
+	.done(function(data){
 		callback(data)
 	});
 }
+
+/*
+
+content -> some rating .rel
+collab -> predicted rating .rating
+
+==============
+most similar:
+* 1
+* 2
+* 3
+=============
+similar students liked:
+* 1
+* 2
+* 3
+
+*/
 
 var ai;
 var selected_courses = [];
 var allCourses = [];
 $(document).ready(function(){
 	$.get("/storage/classes.json", function(data){
+		data = JSON.parse(data)
 		data = data.courses;
 		allCourses = data;
 		ai = new autoFillInput($("#select-autofill"),data,function(id,text){
@@ -79,6 +103,28 @@ function setRating(id,rating){
 	}
 }
 
+function insertCourseItem(containerId, ret, title, contentBased){
+	var text = "<span class='courses-courseid'>"+ ret.id + "</span><span class='courses-coursetitle'>" + title + "</span>";
+	var to_push = "<div class='row courses courses-rec' data-id='"+ret.id+"'><p>" + text + "</p><span><a href='http://catalog.mit.edu/subjects/" + ret.id.split(".")[0];
+	to_push = to_push + "' target='_blank'><i class='fa fa-link'></i></a><i class='fa fa-eye' style='margin-left: 10px'></i></span>"
+	//if content-based
+	if(contentBased === true){
+		to_push = to_push + "<div class='courses-rec-desc' style='display:none'><p>" + (ret.similarity*100).toFixed(1) + "% similarity to " + ret.originalCourse + "</p></div>";
+	}
+	else{
+		//add the rating stars and stuff
+	}
+	//
+	to_push = to_push + "</div>"
+	$(containerId).append(to_push);
+	if(contentBased === true){
+		var id = ret.id;
+		$(containerId + " > div").last().find(".fa-eye").click(function(i){
+			$(this).parent().parent().find(".courses-rec-desc").slideToggle();
+		});
+	}
+}
+
 function predictContent(){
 	var ratings = [];
 	var courses = [];
@@ -86,11 +132,20 @@ function predictContent(){
 		ratings.push(selected_courses[i].rating);
 		courses.push(selected_courses[i].id);
 	}
-	sendPredictContent(courses, ratings, function(data){
-		//time to process...
-		var ret = normalizeData(data);
+	sendPredictAll(courses, ratings, function(data){
+		console.log(data);
+		
+		//
+		//
+		// CONTENT-BASED
+		//
+		//
+
+		var ret = normalizeContentData(data.content);
+		var ret2 = normalizeCollabData(data.collab.data);
 	    //display the results...
-	    $("#predicted-courses").html("");
+	    $("#predicted-courses-content").html("");
+	    $("#predicted-courses-collab").html("");
 	    if(ret.length === 0){
 	    	//nothing here...
 	    }
@@ -100,25 +155,44 @@ function predictContent(){
 	    		var text = "Error: course not found"
 	    		for(var j = 0; j < allCourses.length; j++){
 	    			if(allCourses[j].id === ret[i].id){
-	    				text = "<span class='courses-courseid'>"+allCourses[j].id + "</span><span class='courses-coursetitle'>" + allCourses[j].title + "</span>";
+	    				insertCourseItem("#predicted-courses-content",ret[i],allCourses[j].title,true);
 	    			}
 	    		}
-	    		var to_push = "<div class='row courses courses-rec' data-id='"+ret[i].id+"'><p>" + text + "</p><span><a href='http://catalog.mit.edu/subjects/" + ret[i].id.split(".")[0];
-	    		to_push = to_push + "' target='_blank'><i class='fa fa-link'></i></a><i class='fa fa-eye' style='margin-left: 10px'></i></span>"
-	    		to_push = to_push + "<div class='courses-rec-desc' style='display:none'><p>" + (ret[i].similarity*100).toFixed(1) + "% similarity to " + ret[i].originalCourse + "</p></div>";
-	    		to_push = to_push + "</div>"
-	    		$("#predicted-courses").append(to_push);
-	    		var id = ret[i].id;
-	    		$("#predicted-courses > div").last().find(".fa-eye").click(function(i){
-					$(this).parent().parent().find(".courses-rec-desc").slideToggle();
-				});
+	    	}
+	    	for(var i = 0; i < ret2.length; i++){
+	    		var text = "Error: course not found"
+	    		for(var j = 0; j < allCourses.length; j++){
+	    			if(allCourses[j].id === ret2[i].id){
+	    				insertCourseItem("#predicted-courses-collab",ret2[i],allCourses[j].title,false);
+	    			}
+	    		}
 	    	}
 	    }
+
 
 	});
 }
 
-function normalizeData(data){
+function normalizeCollabData(data){
+	var ret = [];
+	for(key in data){
+		if(data[key] !== 0){
+			ret.push[{
+				id: key,
+				rating: data[key]
+			}]
+		}
+	}
+	ret.sort(function(a,b) {
+		return b.rating - a.rating
+	});
+	if(ret.length > 3){
+		ret = ret.slice(0,3)
+	}
+	return ret;
+}
+
+function normalizeContentData(data){
 	var ret = [];
 	for(var i = 0; i < data.data.length; i++){
 		var _d = normalizeDataSet(data.data[i]);
@@ -150,8 +224,8 @@ function normalizeData(data){
 	ret.sort(function(a, b) {
         return b.rel - a.rel //descending order
     });
-    if(ret.length > 5){
-    	ret = ret.slice(0,5);
+    if(ret.length > 3){
+    	ret = ret.slice(0,3);
     }
     return ret;
 }
@@ -172,4 +246,14 @@ function normalizeDataSet(data){
 		data[i].num = Math.round(ratio * data[i].num);
 	}
 	return data;
+}
+
+function guid() {
+  function s4() {
+    return Math.floor((1 + Math.random()) * 0x10000)
+      .toString(16)
+      .substring(1);
+  }
+  return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
+    s4() + '-' + s4() + s4() + s4();
 }

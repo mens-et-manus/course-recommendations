@@ -2,7 +2,8 @@ from flask import Flask, render_template, request, jsonify
 import json
 import uuid
 import content
- 
+import collaborative
+
 app = Flask(__name__)
 
 import logging
@@ -17,9 +18,12 @@ def index(user=None):
 def about(user=None):
     return render_template('about.html')
 
-@app.route('/predict/content', methods=['POST'])
-def predictContent():
+@app.route('/predict/all', methods=['POST'])
+def predictAll():
 	data = request.json
+	#
+	# CONTENT-BASED
+	#
 	courses = data["courses"]
 	rate = data["ratings"]
 	ret = []
@@ -27,11 +31,25 @@ def predictContent():
 		if content.modelReady() == True:
 			predictions = content.predict(course)
 			ret.append(predictions)
-	# return the stuff here
+	#
+	# COLLAB
+	#
+	id = data["id"]
+	courseList = data["courseList"]
+	for i in range(0,len(courseList)):
+		courseList[i] = str(courseList[i][0]) + " " + str(courseList[i][1])
+	predictData = collaborative.predictCollab(id,courseList)
+
+
 	return jsonify({
-		"data": ret,
-		"courses": courses,
-		"ratings": rate
+		"content": {
+			"data": ret,
+			"courses": courses,
+			"ratings": rate
+		},
+		"collab": {
+			"data": predictData
+		}
 	})
 
 @app.route('/<path:path>')

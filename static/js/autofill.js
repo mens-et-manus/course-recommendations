@@ -1,4 +1,5 @@
 var autoFillInput = function(elem,data,onSelect){
+	console.log(data);
 	$(elem).addClass("autofill");
 	var html = "<span><i class='fa fa-search'></i></span>"+"<input type='text' placeholder='Search for classes...'><div class='autofill-possible shadow'></div>"+"<span class='autofill-clear'><i class='fa fa-close'></i></span>";
 	$(elem).html(html);
@@ -8,7 +9,6 @@ var autoFillInput = function(elem,data,onSelect){
 	this.elem = newElem;
 	this.possible = sugg;
 	this.onSelect = onSelect;
-
 	var newData = [];
 	for(var i = 0; i < data.length; i++){
 		newData.push({
