@@ -105,14 +105,24 @@ function setRating(id,rating){
 
 function insertCourseItem(containerId, ret, title, contentBased){
 	var text = "<span class='courses-courseid'>"+ ret.id + "</span><span class='courses-coursetitle'>" + title + "</span>";
-	var to_push = "<div class='row courses courses-rec' data-id='"+ret.id+"'><p>" + text + "</p><span><a href='http://catalog.mit.edu/subjects/" + ret.id.split(".")[0];
-	to_push = to_push + "' target='_blank'><i class='fa fa-link'></i></a><i class='fa fa-eye' style='margin-left: 10px'></i></span>"
+	var to_push = "<div class='row courses courses-rec' data-id='"+ret.id+"'><p>" + text + "</p>"
 	//if content-based
 	if(contentBased === true){
+		to_push = to_push + "<span><a href='http://catalog.mit.edu/subjects/" + ret.id.split(".")[0];
+		to_push = to_push + "' target='_blank'><i class='fa fa-link'></i></a><i class='fa fa-eye' style='margin-left: 10px'></i></span>"
 		to_push = to_push + "<div class='courses-rec-desc' style='display:none'><p>" + (ret.similarity*100).toFixed(1) + "% similarity to " + ret.originalCourse + "</p></div>";
 	}
 	else{
 		//add the rating stars and stuff
+		//ret.rating
+		to_push = to_push + "<span>"
+		for(var i = 0; i < ret.rating; i++){
+			to_push = to_push + "<i class='fa fa-star star-selected'></i>";
+		}
+		for(var i = 0; i < (5-ret.rating); i++){
+			to_push = to_push + "<i class='fa fa-star'></i>";
+		}
+		to_push = to_push + "</span>"
 	}
 	//
 	to_push = to_push + "</div>"
@@ -133,8 +143,6 @@ function predictContent(){
 		courses.push(selected_courses[i].id);
 	}
 	sendPredictAll(courses, ratings, function(data){
-		console.log(data);
-		
 		//
 		//
 		// CONTENT-BASED
@@ -177,10 +185,10 @@ function normalizeCollabData(data){
 	var ret = [];
 	for(key in data){
 		if(data[key] !== 0){
-			ret.push[{
+			ret.push({
 				id: key,
 				rating: data[key]
-			}]
+			})	
 		}
 	}
 	ret.sort(function(a,b) {
