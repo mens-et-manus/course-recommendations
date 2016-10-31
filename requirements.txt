@@ -7,3 +7,4 @@ redis
 Flask-API
 gunicorn
 pymongo
+Flask-Login

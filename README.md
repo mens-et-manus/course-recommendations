@@ -22,8 +22,10 @@ Gets similar courses based on the course descriptions. Uses language processing 
 
 ### TODO
 + set up databases and stuff
-+ add collaborative-based recommendations
-	+ get sample data
+	+ user creation
+	+ user login
++ MIT certs
++ add global statistics
 
 
 ## NOTES

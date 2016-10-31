@@ -3,13 +3,21 @@ import json
 import uuid
 import content
 import collaborative
+import flask_login
 
 app = Flask(__name__)
+login_manager = flask_login.LoginManager()
+login_manager.init_app(app)
 
 import logging
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
  
+#
+# PAGES
+#
+#
+
 @app.route('/')
 def index(user=None):
     return render_template('index.html')
@@ -17,6 +25,11 @@ def index(user=None):
 @app.route('/about')
 def about(user=None):
     return render_template('about.html')
+
+#
+# DATA
+#
+#
 
 @app.route('/predict/all', methods=['POST'])
 def predictAll():
@@ -51,6 +64,18 @@ def predictAll():
 			"data": predictData
 		}
 	})
+
+#
+# USERS
+#
+#
+
+
+
+#
+# STATIC
+#
+#
 
 @app.route('/<path:path>')
 def static_proxy(path):
