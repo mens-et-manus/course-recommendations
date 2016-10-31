@@ -39,7 +39,9 @@ var selected_courses = [];
 var allCourses = [];
 $(document).ready(function(){
 	$.get("/storage/classes.json", function(data){
-		data = JSON.parse(data)
+		if(typeof data === typeof ""){	
+			data = JSON.parse(data)
+		}
 		data = data.courses;
 		allCourses = data;
 		ai = new autoFillInput($("#select-autofill"),data,function(id,text){
@@ -213,6 +215,7 @@ function normalizeContentData(data){
 					indexExists = k;
 				}
 			}
+
 			if(indexExists == -1){
 				ret.push({
 					id: _d[j].id,
@@ -222,7 +225,7 @@ function normalizeContentData(data){
 				});
 			}
 			else{
-				ret[k].rel = ret[k].rel + (_r * _d[j].num)
+				ret[indexExists].rel = ret[indexExists].rel + (_r * _d[j].num)
 			}
 
 

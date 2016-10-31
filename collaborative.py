@@ -145,17 +145,6 @@ for entry in entries:
 #   LOAD SOME SAMPLE DATA
 #
 
-'''
-f = open('collaborative_test.txt', 'r')
-for line in f:
-    line = line.split(",")
-    id = line[0]
-    courseList = line[1::]
-    addToDB(id,courseList)
-'''
-
-
-
 """
 newKnownData = "g,18.02 2,8.01 4,3.091 3"
 result = predictData(newKnownData)

@@ -1,5 +1,4 @@
 var autoFillInput = function(elem,data,onSelect){
-	console.log(data);
 	$(elem).addClass("autofill");
 	var html = "<span><i class='fa fa-search'></i></span>"+"<input type='text' placeholder='Search for classes...'><div class='autofill-possible shadow'></div>"+"<span class='autofill-clear'><i class='fa fa-close'></i></span>";
 	$(elem).html(html);

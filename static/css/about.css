@@ -19,3 +19,9 @@
 #team-members > div > span{
 	margin-top: 10px;
 }
+
+#team-members span a {
+    margin: 5px;
+    color: black;
+    font-size: 19px;
+}
