@@ -26,6 +26,7 @@ Gets similar courses based on the course descriptions. Uses language processing 
 	+ user login
 + MIT certs
 + add global statistics
++ about page
 
 
 ## NOTES

@@ -1,31 +1,25 @@
-{% extends 'base.html' %}
+{% extends 'bare.html' %}
 
 {% block header %}
-<link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/about.css">
-{% endblock %}
 
-{% block body %}
 
-<div class="shadow container">
-	<h2 class="center">PROJECT</h2>
-	<p>The goal of this project is to allow MIT students to find courses which they will enjoy taking, and to make the most of their time at the Institute. By using language processing and collaborative models, we hope to provide accurate and useful recommendations.</p>
-</div>
-
-<div class="shadow container">
-	<h2 class="center">TEAM</h2>
-	<div id="team-members">
+<div id="scroll">
+	<div class="part" id="part-1">
+		<!--landing-->
+		<svg xmlns="http://www.w3.org/2000/svg"></svg>
 		<div>
-			<img src="https://avatars1.githubusercontent.com/u/4978455?v=3&s=466" class="shadow">
-			<span>Michael Kaminsky</span>
-			<span>
-				<a href="https://github.com/mkaminsky11" target="_blank"><i class="fa fa-github"></i></a>
-				<a href="https://mkaminsky11.github.io" target="_blank"><i class="fa fa-link"></i></a>
-			</span>
+			<h1>MIT COURSES</h1>
+			<h3>Empowering students through persionalized recommendations</h3>
 		</div>
 	</div>
+	<div class="part">
+		<!--information + diagram-->
+	</div>
+	<div class="part">
+		<!--team and stuff-->
+	</div>
 </div>
-
 
 <script src="js/about.js"></script>
 
