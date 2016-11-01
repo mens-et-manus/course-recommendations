@@ -5,9 +5,16 @@ import content
 import collaborative
 import flask_login
 
+#
+# SSL
+#
+#
+
+#
+# SETUP
+#
+
 app = Flask(__name__)
-login_manager = flask_login.LoginManager()
-login_manager.init_app(app)
 
 import logging
 log = logging.getLogger('werkzeug')
@@ -20,7 +27,7 @@ log.setLevel(logging.ERROR)
 
 @app.route('/')
 def index(user=None):
-    return render_template('index.html')
+	return render_template('index.html')
 
 @app.route('/about')
 def about(user=None):
@@ -82,7 +89,7 @@ def static_proxy(path):
   return app.send_static_file(path)
 
 if __name__ == '__main__':
-    app.run()
+	app.run()
 
 def generateId():
 	return str(uuid.uuid1())

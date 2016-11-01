@@ -31,6 +31,10 @@ Gets similar courses based on the course descriptions. Uses language processing 
 
 ## NOTES
 '''
-"D:\Program Files\MongoDB\Server\3.2\bin\mongod.exe" --dbpath data/db
-"D:\Program Files\MongoDB\Server\3.2\bin\mongo.exe"
+The workaround is to put these 2 lines in werkzeug/serving.py
+
+in class BaseWSGIServer(HTTPServer, object):
+...
+ def shutdown_request(self,request):
+        request.shutdown()
 '''
