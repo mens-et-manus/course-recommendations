@@ -1,11 +1,19 @@
 # course-recommendations
 Course recommendations using AI
 
-## Setup
+## Installation
+Note: This requires **PYTHON 3**
+### Install Python requirements
 ```
 pip3 install -r requirements.txt
-# install redis somehow (brew, apt, etc.)
 ```
+
+Install Nginx
+Delete default stuff
+Install uwsgi (pip) and uwsgi-core (apt)
+Install uwsgi-plugin-python3
+Test with 'sudo uwsgi --http-socket :9090 --plugin python3 --wsgi-file wsgi.py'
+
 
 ## Types of Prediction
 We will be using a combination of the the following 2 methods:
