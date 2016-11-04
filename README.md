@@ -2,17 +2,19 @@
 Course recommendations using AI
 
 ## Installation
-Note: This requires **PYTHON 3**
+
+### Requirements
++ Nginx
++ Python3 + Pip3
++ MongoDB
++ `uwsgi-core` and `uwsgi-plugin-python3`
+
 ### Install Python requirements
 ```
 pip3 install -r requirements.txt
 ```
 
-Install Nginx
-Delete default stuff
-Install uwsgi (pip) and uwsgi-core (apt)
-Install uwsgi-plugin-python3
-Test with 'sudo uwsgi --http-socket :9090 --plugin python3 --wsgi-file wsgi.py'
+uwsgi --ini courserecs.ini --plugin python3 --chmod-socket=666
 
 
 ## Types of Prediction
@@ -38,11 +40,3 @@ Gets similar courses based on the course descriptions. Uses language processing 
 
 
 ## NOTES
-'''
-The workaround is to put these 2 lines in werkzeug/serving.py
-
-in class BaseWSGIServer(HTTPServer, object):
-...
- def shutdown_request(self,request):
-        request.shutdown()
-'''

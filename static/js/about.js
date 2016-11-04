@@ -5,12 +5,15 @@ $(document).ready(function(){
 	$("#part-1 svg").attr("width",$(window).width());
 	$("#part-1 svg").attr("viewbox", "0 0 " + $(window).width() + " " + $(window).height());
 
-	/*
+	
 	var w = $(window).width() / 20;
 	var num_w = 20;
 	var h = $(window).height() / 20;
 	var num_h = 20;
 	for(var i = 0; i < num_w; i++){
+		var svgns = "http://www.w3.org/2000/svg";
+		var group = document.createElementNS(svgns, "g");
+		group.setAttribute('id', 'group-' + (i+1));
 		for(var j = 0; j < num_h; j++){
 			var svgns = "http://www.w3.org/2000/svg";
 			var ret = 	document.createElementNS(svgns, "rect");
@@ -21,19 +24,34 @@ $(document).ready(function(){
 			ret.setAttributeNS(null,'fill','#F44336');
 			ret.setAttributeNS(null,'stroke-width',1);
 			ret.setAttributeNS(null,'stroke','#F44336');
-			document.querySelector("#part-1 svg").appendChild(ret);
+			group.appendChild(ret);
 		}
+		document.querySelector("#part-1 svg").appendChild(group);
 	}
 	window.setTimeout(function(){
-		$("#part-1 svg > rect").velocity("transition.slideDownIn",{
+		$("#part-1 svg rect").velocity("transition.slideDownIn",{
 			stagger: 10
 		});
 	},100);
 
 	window.setInterval(function(){
 		//switch some random tiles to different colors
-	}, 400);
-	*/
+		var array = $("#part-1 svg rect").toArray();
+		var randomIndex = getRandomInt(0,array.length-1);
+		var randomRect = array[randomIndex];
+		$(randomRect).velocity({
+			fill: "#eee",
+			stroke: "#eee"
+		},{
+			duration: 1000,
+			complete: function(){
+				$(this).velocity({
+					fill: "#F44336",
+					stroke: "#F44336"
+				});
+			}
+		});
+	}, 100);
 
 	/*
 	+-------------------------------------------+
@@ -51,3 +69,7 @@ $(document).ready(function(){
 	+--------------------------------------------+
 	*/
 });
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}

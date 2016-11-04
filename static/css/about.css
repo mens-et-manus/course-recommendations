@@ -36,3 +36,14 @@ html, body{
 	z-index: 2;
 	color: white;
 }
+
+#part-1 h1{
+	font-size: 54px;
+    margin-bottom: 20px;
+}
+
+#part-1 h3{
+	color: #4a4343;
+    font-size: 23px;
+    margin-top: 10px;
+}

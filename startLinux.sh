@@ -5,4 +5,4 @@ sudo mongod --fork --logpath data/log/mongod.log --dbpath data/db
 # TODO
 
 # start server
-sudo python3 courserecs.py
+uwsgi --ini courserecs.ini --plugin python3 --chmod-socket=666

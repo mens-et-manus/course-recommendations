@@ -1,3 +1,6 @@
 data/db/*
 data/log/*
 certs/*
+*.pyc
+__pycache__
+__pycache__/*

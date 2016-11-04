@@ -6,11 +6,6 @@ import collaborative
 import flask_login
 
 #
-# SSL
-#
-#
-
-#
 # SETUP
 #
 
