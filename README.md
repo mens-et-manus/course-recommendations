@@ -11,11 +11,10 @@ Course recommendations using AI
 
 ### Install Python requirements
 ```
+sudo apt-get install python-qt4 qt4-dev-tools
 pip3 install -r requirements.txt
-```
-
 uwsgi --ini courserecs.ini --plugin python3 --chmod-socket=666
-
+```
 
 ## Types of Prediction
 We will be using a combination of the the following 2 methods:
@@ -30,6 +29,22 @@ Gets similar courses based on the course descriptions. Uses language processing 
 + **Pros:** Easy to scrape data
 + **Cons:** Only gets courses that _sound_ similar
 
+## Database
+```
+db -> courses
+db.collab
+db.predict
+db.queries
+db.predicted
+
+```
+
+### Global Stats
++ Highest predicted rating
++ Most liked (input)
++ Most predicted
++ Number of queries
+
 ### TODO
 + set up databases and stuff
 	+ user creation
@@ -37,6 +52,10 @@ Gets similar courses based on the course descriptions. Uses language processing 
 + MIT certs
 + add global statistics
 + about page
++ CHECK IF VALID COURSES.....(look at descs)
++ add descs to results
++ combine into 1 array of results
++ errors and things
 
 
 ## NOTES

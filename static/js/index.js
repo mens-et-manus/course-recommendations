@@ -48,15 +48,7 @@ $(document).ready(function(){
 			ai.clear();
 			if(!alreadyInSelected(id)){
 				var to_push = "<div class='row courses' data-id='"+id+"'><p>" + text + "</p><span>";
-				for(var i = 0; i < 5; i++){
-					if(i === 0){
-						to_push = to_push + "<i class='fa fa-star star-selected'></i>";
-					}
-					else{
-						to_push = to_push + "<i class='fa fa-star'></i>";
-					}
-				}
-				to_push = to_push + "</span><span class='course-close'><i class='fa fa-close'></i></span></div>"
+				to_push = to_push + generateStars(1) + "<span class='course-close'><i class='fa fa-close'></i></span></div>"
 				$("#selected-courses").append(to_push);
 				$("#selected-courses > div").last().find(".fa-star").each(function(i){
 					$(this).click(function(){
@@ -105,27 +97,20 @@ function setRating(id,rating){
 	}
 }
 
-function insertCourseItem(containerId, ret, title, contentBased){
+function insertCourseItem(containerId, ret, title, desc, contentBased){
 	var text = "<span class='courses-courseid'>"+ ret.id + "</span><span class='courses-coursetitle'>" + title + "</span>";
 	var to_push = "<div class='row courses courses-rec' data-id='"+ret.id+"'><p>" + text + "</p>"
+
 	//if content-based
 	if(contentBased === true){
-		to_push = to_push + "<span><a href='http://catalog.mit.edu/subjects/" + ret.id.split(".")[0];
-		to_push = to_push + "' target='_blank'><i class='fa fa-link'></i></a><i class='fa fa-eye' style='margin-left: 10px'></i></span>"
-		to_push = to_push + "<div class='courses-rec-desc' style='display:none'><p>" + (ret.similarity*100).toFixed(1) + "% similarity to " + ret.originalCourse + "</p></div>";
 	}
 	else{
 		//add the rating stars and stuff
-		//ret.rating
-		to_push = to_push + "<span>"
-		for(var i = 0; i < ret.rating; i++){
-			to_push = to_push + "<i class='fa fa-star star-selected'></i>";
-		}
-		for(var i = 0; i < (5-ret.rating); i++){
-			to_push = to_push + "<i class='fa fa-star'></i>";
-		}
-		to_push = to_push + "</span>"
+		to_push = to_push + generateStars(ret.rating);
 	}
+
+	to_push = to_push + "<div class='courses-rec-desc'><p>" + desc + "</p></div>";
+
 	//
 	to_push = to_push + "</div>"
 	$(containerId).append(to_push);
@@ -165,7 +150,7 @@ function predictContent(){
 	    		var text = "Error: course not found"
 	    		for(var j = 0; j < allCourses.length; j++){
 	    			if(allCourses[j].id === ret[i].id){
-	    				insertCourseItem("#predicted-courses-content",ret[i],allCourses[j].title,true);
+	    				insertCourseItem("#predicted-courses-content",ret[i],allCourses[j].title,allCourses[j].desc,true);
 	    			}
 	    		}
 	    	}
@@ -173,7 +158,7 @@ function predictContent(){
 	    		var text = "Error: course not found"
 	    		for(var j = 0; j < allCourses.length; j++){
 	    			if(allCourses[j].id === ret2[i].id){
-	    				insertCourseItem("#predicted-courses-collab",ret2[i],allCourses[j].title,false);
+	    				insertCourseItem("#predicted-courses-collab",ret2[i],allCourses[j].title,allCourses[j].desc,false);
 	    			}
 	    		}
 	    	}
@@ -267,4 +252,16 @@ function guid() {
   }
   return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
     s4() + '-' + s4() + s4() + s4();
+}
+
+function generateStars(rating){
+	var to_push = "<span>"
+	for(var i = 0; i < rating; i++){
+		to_push = to_push + "<i class='fa fa-star star-selected'></i>";
+	}
+	for(var i = 0; i < (5-rating); i++){
+		to_push = to_push + "<i class='fa fa-star'></i>";
+	}
+	to_push = to_push + "</span>";
+	return to_push;
 }

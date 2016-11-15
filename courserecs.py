@@ -3,8 +3,9 @@ import json
 import uuid
 import content
 import collaborative
+import statistics
 import flask_login
-
+from datetime import datetime
 #
 # SETUP
 #
@@ -20,11 +21,11 @@ log.setLevel(logging.ERROR)
 #
 #
 
-@app.route('/')
+@app.route('/recommend')
 def index(user=None):
 	return render_template('index.html')
 
-@app.route('/about')
+@app.route('/')
 def about(user=None):
     return render_template('about.html')
 
@@ -46,15 +47,38 @@ def predictAll():
 		if content.modelReady() == True:
 			predictions = content.predict(course)
 			ret.append(predictions)
+
+	# statistics information
+	statistics.queryMade({
+		"type": "get",
+		"timestamp": datetime.utcnow(),
+		"coursesInput": courses
+	})
+
 	#
 	# COLLAB
 	#
 	id = data["id"]
 	courseList = data["courseList"]
 	for i in range(0,len(courseList)):
+		# stats
+		statistics.courseUsedToPredict({
+			"id": courseList[i][0],
+			"rating": courseList[i][1]
+		})
 		courseList[i] = str(courseList[i][0]) + " " + str(courseList[i][1])
 	predictData = collaborative.predictCollab(id,courseList)
 
+	#
+	# STATS
+	#
+
+
+	for row in ret:
+		for col in row:
+			statistics.coursePredicted(col["id"])
+	for key in predictData:
+		statistics.coursePredicted(key,rating=predictData[key])
 
 	return jsonify({
 		"content": {
@@ -66,6 +90,14 @@ def predictAll():
 			"data": predictData
 		}
 	})
+
+#
+# STATS
+#
+@app.route('/stats', methods=['GET'])
+def getStats():
+	stats = statistics.getStats();
+	return jsonify(stats)
 
 #
 # USERS

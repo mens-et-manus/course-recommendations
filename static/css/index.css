@@ -35,16 +35,16 @@
     white-space: nowrap;
 }
 
-.courses .fa-star{
-	color: #212121;
-}
-
 .courses a{
 	color: #212121 !important;
 }
 
 
-.courses .star-selected{
+.fa-star{
+	color: #212121;
+}
+
+.star-selected{
 	color: #FFEB3B;
 }
 
@@ -57,7 +57,7 @@
 	width: calc(100%  - 20px);
 	padding: 10px;
 	margin-top: 10px;
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .courses-coursetitle{

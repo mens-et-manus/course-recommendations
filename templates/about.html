@@ -2,22 +2,54 @@
 
 {% block header %}
 <link rel="stylesheet" href="css/about.css">
+{% endblock %}
 
-
+{% block body %}
 <div id="scroll">
-	<div class="part" id="part-1">
+	{% include 'navbar.html' %}
+	<div class="part picture-part" id="part-1">
 		<!--landing-->
 		<svg xmlns="http://www.w3.org/2000/svg"></svg>
 		<div>
 			<h1>MIT COURSES</h1>
-			<h3>Empowering students through persionalized recommendations</h3>
+			<h3>Empowering students through personalized recommendations</h3>
 		</div>
 	</div>
-	<div class="part">
+	<div class="part shadow" id="part-2">
+		<img src="img/how.png" id="how">
 		<!--information + diagram-->
+		<h2 class="info">QUERIES
+			<br/>
+			<span id="stats-queries" class="info-num">N/A</span>
+		</h2>
+		<h2 class="info">HIGHEST RATED CLASS
+			<br/>
+			<span id="stats-max_predict_id">N/A</span>
+			<span id="stats-max_predict_rating">N/A</span>
+		</h2>
+		<h2 class="info">HIGHEST PREDICTED
+			<br/>
+			<span id="stats-max_predicted_id">N/A</span>
+			<span id="stats-max_predicted_rating">N/A</span>
+		</h2>
+		<h2 class="info">MOST PREDICTED
+			<br/>
+			<span id="stats-max_predicted_num_id">N/A</span>
+			<span id="stats-max_predicted_num" class="info-num">N/A</span>
+		</h2>
 	</div>
-	<div class="part">
+	<div class="part picture-part shadow" id="part-3">
+		<div class="overlay"></div>
+	</div>
+	<div class="part" id="part-4">
 		<!--team and stuff-->
+		<h2 class="center">TEAM</h2>
+		<div id="team-members">
+			<div>
+				<img src="https://avatars1.githubusercontent.com/u/4978455?v=3&s=466" class="shadow">
+				<span>Michael Kaminsky</span>
+			</div>
+		</div>
 	</div>
 </div>
 

@@ -10,3 +10,4 @@ pymongo
 Flask-Login
 pyOpenSSL
 uwsgi
+Ghost.py

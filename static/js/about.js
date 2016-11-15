@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("#part-1").css("width",$(window).width() + "px");
+	//$("#part-1").css("width",$(window).width() + "px");
 	$("#part-1").css("height",$(window).height() + "px");
 	$("#part-1 svg").attr("height",$(window).height());
 	$("#part-1 svg").attr("width",$(window).width());
@@ -68,8 +68,37 @@ $(document).ready(function(){
 	|
 	+--------------------------------------------+
 	*/
+
+
+	$.getJSON("/stats", function(data){
+		for(key in data){
+			var _d = data[key];
+			if(typeof _d === "number"){
+				_d = Math.round(_d);
+			}
+			var id = "#stats-" + key;
+			if(key.split("_").reverse()[0] === "rating" && typeof _d === "number"){
+				$(id).html(generateStars(_d));
+			}
+			else{
+				$(id).text(_d);
+			}
+		}
+	});
 });
 
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function generateStars(rating){
+	var to_push = "<span>"
+	for(var i = 0; i < rating; i++){
+		to_push = to_push + "<i class='fa fa-star star-selected'></i>";
+	}
+	for(var i = 0; i < (5-rating); i++){
+		to_push = to_push + "<i class='fa fa-star'></i>";
+	}
+	to_push = to_push + "</span>";
+	return to_push;
 }
