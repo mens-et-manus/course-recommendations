@@ -110,7 +110,7 @@ def getStats():
 
 	# most common in predict/predicted
 
-
+	ret["evals"] = len(list(db.evals.find({})))
 
 
 	# number of queries

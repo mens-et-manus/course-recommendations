@@ -97,29 +97,15 @@ function setRating(id,rating){
 	}
 }
 
-function insertCourseItem(containerId, ret, title, desc, contentBased){
+function insertCourseItem(containerId, ret, title, desc){
 	var text = "<span class='courses-courseid'>"+ ret.id + "</span><span class='courses-coursetitle'>" + title + "</span>";
 	var to_push = "<div class='row courses courses-rec' data-id='"+ret.id+"'><p>" + text + "</p>"
-
-	//if content-based
-	if(contentBased === true){
-	}
-	else{
-		//add the rating stars and stuff
-		to_push = to_push + generateStars(ret.rating);
-	}
-
+	to_push = to_push + generateStars(Math.round(ret.rating));
 	to_push = to_push + "<div class='courses-rec-desc'><p>" + desc + "</p></div>";
 
 	//
 	to_push = to_push + "</div>"
 	$(containerId).append(to_push);
-	if(contentBased === true){
-		var id = ret.id;
-		$(containerId + " > div").last().find(".fa-eye").click(function(i){
-			$(this).parent().parent().find(".courses-rec-desc").slideToggle();
-		});
-	}
 }
 
 function predictContent(){
@@ -136,11 +122,9 @@ function predictContent(){
 		//
 		//
 
-		var ret = normalizeContentData(data.content);
-		var ret2 = normalizeCollabData(data.collab.data);
+		var ret = normalizeFullData(data.full.data);
 	    //display the results...
 	    $("#predicted-courses-content").html("");
-	    $("#predicted-courses-collab").html("");
 	    if(ret.length === 0){
 	    	//nothing here...
 	    }
@@ -150,15 +134,7 @@ function predictContent(){
 	    		var text = "Error: course not found"
 	    		for(var j = 0; j < allCourses.length; j++){
 	    			if(allCourses[j].id === ret[i].id){
-	    				insertCourseItem("#predicted-courses-content",ret[i],allCourses[j].title,allCourses[j].desc,true);
-	    			}
-	    		}
-	    	}
-	    	for(var i = 0; i < ret2.length; i++){
-	    		var text = "Error: course not found"
-	    		for(var j = 0; j < allCourses.length; j++){
-	    			if(allCourses[j].id === ret2[i].id){
-	    				insertCourseItem("#predicted-courses-collab",ret2[i],allCourses[j].title,allCourses[j].desc,false);
+	    				insertCourseItem("#predicted-courses-content",ret[i],allCourses[j].title,allCourses[j].desc);
 	    			}
 	    		}
 	    	}
@@ -166,6 +142,13 @@ function predictContent(){
 
 
 	});
+}
+
+function normalizeFullData(data){
+	if(data.length > 5){
+		data= data.slice(0,5);
+	}
+	return data;
 }
 
 function normalizeCollabData(data){

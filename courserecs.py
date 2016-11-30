@@ -1,8 +1,9 @@
 from flask import Flask, render_template, request, jsonify
 import json
 import uuid
-import content
-import collaborative
+#import content
+#import collaborative
+import engine
 import statistics
 import flask_login
 from datetime import datetime
@@ -42,11 +43,6 @@ def predictAll():
 	#
 	courses = data["courses"]
 	rate = data["ratings"]
-	ret = []
-	for course in courses:
-		if content.modelReady() == True:
-			predictions = content.predict(course)
-			ret.append(predictions)
 
 	# statistics information
 	statistics.queryMade({
@@ -58,7 +54,7 @@ def predictAll():
 	#
 	# COLLAB
 	#
-	id = data["id"]
+	id = data["id"] # TODO: generate this....
 	courseList = data["courseList"]
 	for i in range(0,len(courseList)):
 		# stats
@@ -67,27 +63,20 @@ def predictAll():
 			"rating": courseList[i][1]
 		})
 		courseList[i] = str(courseList[i][0]) + " " + str(courseList[i][1])
-	predictData = collaborative.predictCollab(id,courseList)
+
+
+	fullRes = engine.combinePredict(id, courseList, courses, "instructors")
 
 	#
 	# STATS
 	#
 
-
-	for row in ret:
-		for col in row:
-			statistics.coursePredicted(col["id"])
-	for key in predictData:
-		statistics.coursePredicted(key,rating=predictData[key])
+	for item in fullRes:
+		statistics.coursePredicted(item["id"],rating=item["rating"])
 
 	return jsonify({
-		"content": {
-			"data": ret,
-			"courses": courses,
-			"ratings": rate
-		},
-		"collab": {
-			"data": predictData
+		"full": {
+			"data": fullRes
 		}
 	})
 

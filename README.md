@@ -59,3 +59,16 @@ db.predicted
 
 
 ## NOTES
+```
+collab: how close to other users
+content: how close course descriptions
+evals: how important certain factors are: teachers, assignments, etc.
+
+
+
+
+choose classes and rate them
+choose most important factor
+
+maximize predicted rating, course desc similarity, factor ----> 3-4 courses
+```
