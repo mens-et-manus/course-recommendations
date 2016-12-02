@@ -1,0 +1,10 @@
+[Unit]
+Description=Course recommendations
+After=network.target mongodb.service
+
+[Service]
+User=putz
+ExecStart=/usr/bin/python3 /home/putz/Projects/course-recommendations/courserecs.py
+
+[Install]
+WantedBy=multi-user.target
