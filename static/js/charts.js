@@ -30,7 +30,7 @@ function insertEvalStats(id, stats){
 	// ok, so there is some data
 	var ident = "[data-id='" + id + "']";
 	$(ident).append("<canvas id=\"chart-"+id+"\" width=\"400\" height=\"400\"></canvas>");
-	var chart_ident = "#chart-" + id;
+	var chart_ident = "chart-" + id;
 	datasets = [];
 	for(var i = 0; i < stats.length; i++){
 		s = stats[i];
@@ -54,7 +54,7 @@ function insertEvalStats(id, stats){
             data: data
         });
 	}
-	storeCharts[id] = new Chart($(chart_ident),{
+	storeCharts[id] = new Chart(document.getElementById(chart_ident),{
 		labels: ["Assigments contribute to learning","Subject expectations were met","Grading was fair","Student learning objectives were met","Pace of the class","Rating"],
 		datasets: datasets
 	});
