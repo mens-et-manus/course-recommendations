@@ -111,7 +111,8 @@ def combinePredict(id, courseList, courses, prefered):
         if _l != 0:
             tot_result.append({
                 "id": item,
-                "rating": _s/_l
+                "rating": _s/_l,
+                "stats": statistics.evalStats(item)
             })
     # sort dictionary by rating
 

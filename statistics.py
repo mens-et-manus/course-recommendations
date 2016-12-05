@@ -12,6 +12,24 @@ def queryMade(queryInfo):
 	}
 	db.queries.insert(newQuery)
 
+def evalStats(id):
+	# find all, order by year -> season
+	seasons = ["IAP","Spring","Summer","Fall"]
+	results = list(db.evals.find({
+        "id": id
+    }))
+	if len(results) == 0:
+		return None
+
+	def mySort(item):
+		year = int(item["year"])
+		season = seasons.index(item["season"])
+		index = year * 4 + season
+		return index
+
+	sortedStates = sorted(results, key=mySort)
+	return sortedStates
+
 # db.predict
 def courseUsedToPredict(courseInfo):
 	# id and ratings
