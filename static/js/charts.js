@@ -23,6 +23,7 @@ if more than 1:
 */
 
 function insertEvalStats(id, stats){
+	//console.log(stats);
 	if(stats.length === 0){
 		return;
 	}
@@ -34,7 +35,7 @@ function insertEvalStats(id, stats){
 	for(var i = 0; i < stats.length; i++){
 		s = stats[i];
 		var data = [
-			s.stats.assigments.avg,
+			s.stats.assignments.avg,
 			s.stats.expect.avg,
 			s.stats.grading.avg,
 			s.stats.objectives.avg,
