@@ -21,7 +21,7 @@ def evalStats(id):
     	"_id": 0
     }))
 	if len(results) == 0:
-		return None
+		return []
 
 	def mySort(item):
 		year = int(item["year"])

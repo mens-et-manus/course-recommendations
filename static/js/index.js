@@ -102,10 +102,9 @@ function insertCourseItem(containerId, ret, title, desc){
 	var to_push = "<div class='row courses courses-rec' data-id='"+ret.id+"'><p>" + text + "</p>"
 	to_push = to_push + generateStars(Math.round(ret.rating));
 	to_push = to_push + "<div class='courses-rec-desc'><p>" + desc + "</p></div>";
-
-	//
 	to_push = to_push + "</div>"
 	$(containerId).append(to_push);
+	insertEvalStats(ret.id, ret.stats);
 }
 
 function predictContent(){
