@@ -43,8 +43,7 @@ function insertEvalStats(id, stats){
 			s.stats.rating.avg
 		];
 
-
-		datasets.append({
+		datasets.push({
 			label: s.season + " " + s.year,
             backgroundColor: "rgba(179,181,198,0.2)",
             borderColor: "rgba(179,181,198,1)",
