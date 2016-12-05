@@ -17,6 +17,8 @@ def evalStats(id):
 	seasons = ["IAP","Spring","Summer","Fall"]
 	results = list(db.evals.find({
         "id": id
+    },{
+    	"_id": 0
     }))
 	if len(results) == 0:
 		return None
