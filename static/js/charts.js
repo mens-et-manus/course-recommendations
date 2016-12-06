@@ -60,7 +60,14 @@ function insertEvalStats(id, stats){
 		data: {
 			labels: ["Assigments contribute to learning","Subject expectations were met","Grading was fair","Student learning objectives were met","Pace of the class","Rating"],
 			datasets: datasets
-		}
+		},
+		options: {
+	            scale: {
+	                ticks: {
+	                    beginAtZero: true
+	                }
+	            }
+	    }
 	});
 	storeCharts[id] = newChart;
 }
