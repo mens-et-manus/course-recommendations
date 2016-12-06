@@ -53,11 +53,13 @@ function insertEvalStats(id, stats){
             pointHoverBorderColor: "rgba(179,181,198,1)",
             data: data
         });
+        console.log(datasets);
 	}
-	storeCharts[id] = new Chart(document.getElementById(chart_ident),{
+	var newChart = new Chart(document.getElementById(chart_ident).getContext("2d"),{
 		labels: ["Assigments contribute to learning","Subject expectations were met","Grading was fair","Student learning objectives were met","Pace of the class","Rating"],
 		datasets: datasets
 	});
+	storeCharts[id] = newChart;
 }
 
 function clearCharts(){
