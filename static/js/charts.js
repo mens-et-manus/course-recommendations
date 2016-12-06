@@ -56,8 +56,11 @@ function insertEvalStats(id, stats){
         console.log(datasets);
 	}
 	var newChart = new Chart(document.getElementById(chart_ident).getContext("2d"),{
-		labels: ["Assigments contribute to learning","Subject expectations were met","Grading was fair","Student learning objectives were met","Pace of the class","Rating"],
-		datasets: datasets
+		type: 'radar',
+		data: {
+			labels: ["Assigments contribute to learning","Subject expectations were met","Grading was fair","Student learning objectives were met","Pace of the class","Rating"],
+			datasets: datasets
+		}
 	});
 	storeCharts[id] = newChart;
 }
