@@ -45,30 +45,6 @@ db.predicted
 + Most predicted
 + Number of queries
 
-### TODO
-+ set up databases and stuff
-	+ user creation
-	+ user login
-+ MIT certs
-+ add global statistics
-+ about page
-+ CHECK IF VALID COURSES.....(look at descs)
-+ add descs to results
-+ combine into 1 array of results
-+ errors and things
-
-
-## NOTES
 ```
-collab: how close to other users
-content: how close course descriptions
-evals: how important certain factors are: teachers, assignments, etc.
-
-
-
-
-choose classes and rate them
-choose most important factor
-
-maximize predicted rating, course desc similarity, factor ----> 3-4 courses
+sudo uwsgi --http-socket :5000 --plugin python3 --wsgi-file wsgi.py
 ```

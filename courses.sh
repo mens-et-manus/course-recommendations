@@ -1,0 +1,1 @@
+uwsgi --ini courses.ini --plugin python3
