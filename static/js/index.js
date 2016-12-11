@@ -99,7 +99,10 @@ function setRating(id,rating){
 
 function insertCourseItem(containerId, ret, title, desc){
 	var text = "<span class='courses-courseid'>"+ ret.id + "</span><span class='courses-coursetitle'>" + title + "</span>";
-	var to_push = "<div class='row courses courses-rec' data-id='"+ret.id+"'><p>" + text + "</p>"
+	var to_push = "<div class='row courses courses-rec' data-id='"+ret.id+"'><p>" + text + "</p>";
+	if(ret.stats.length > 0){
+		to_push = to_push + "<span class='chart-btn shadow' onclick=\"toggleChart('"+ ret.id +"')\"><i class=\"material-icons\">show_chart</i></span>"
+	}
 	to_push = to_push + generateStars(Math.round(ret.rating));
 	to_push = to_push + "<div class='courses-rec-desc'><p>" + desc + "</p></div>";
 	to_push = to_push + "</div>"

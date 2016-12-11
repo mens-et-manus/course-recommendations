@@ -22,6 +22,26 @@ if more than 1:
 
 */
 
+var chartColors = [
+	[179,181,198],
+	[233,30,99],
+	[63,81,181],
+	[0,150,136]
+];
+
+function rgbChartColor(c){
+	return "rgb(" + c[0] + "," + c[1] + "," + c[2] + ")";
+
+}
+
+function rgbaChartColor(c,a){
+	return "rgba(" + c[0] + "," + c[1] + "," + c[2] + "," + a + ")"
+}
+
+function toggleChart(id){
+	$(document.getElementById("chart-" + id)).toggle();
+}
+
 function insertEvalStats(id, stats){
 	//console.log(stats);
 	if(stats.length === 0){
@@ -29,7 +49,7 @@ function insertEvalStats(id, stats){
 	}
 	// ok, so there is some data
 	var ident = "[data-id='" + id + "']";
-	$(ident).append("<canvas id=\"chart-"+id+"\" width=\"400\" height=\"400\"></canvas>");
+	$(ident).append("<canvas id=\"chart-"+id+"\" width=\"400\" height=\"400\" style=\"display:none\"></canvas>");
 	var chart_ident = "chart-" + id;
 	datasets = [];
 	for(var i = 0; i < stats.length; i++){
@@ -43,14 +63,16 @@ function insertEvalStats(id, stats){
 			s.stats.rating.avg
 		];
 
+		var itemColor = chartColors[ i % chartColors.length];
+
 		datasets.push({
 			label: s.season + " " + s.year,
-            backgroundColor: "rgba(179,181,198,0.2)",
-            borderColor: "rgba(179,181,198,1)",
-            pointBackgroundColor: "rgba(179,181,198,1)",
+            backgroundColor: rgbaChartColor(itemColor, 0.2),
+            borderColor: rgbaChartColor(itemColor, 1),
+            pointBackgroundColor: rgbaChartColor(itemColor, 1),
             pointBorderColor: "#fff",
             pointHoverBackgroundColor: "#fff",
-            pointHoverBorderColor: "rgba(179,181,198,1)",
+            pointHoverBorderColor: rgbaChartColor(itemColor, 1),
             data: data
         });
         console.log(datasets);

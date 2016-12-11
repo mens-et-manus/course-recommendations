@@ -65,3 +65,15 @@
     font-size: 15px;
     color: #636363;
 }
+
+.chart-btn{
+	margin-right: 10px;
+    background-color: red;
+    padding: 3px;
+    color: white;
+    border-radius: 3px;
+}
+
+.chart-btn i{
+	font-size: 20px;
+}
